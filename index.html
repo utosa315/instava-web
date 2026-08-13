@@ -3,21 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Instava</title>
-  <meta name="description" content="Instagramの公開投稿を、原画質のまま端末に保存するアプリ。">
+  <title data-ja="Instava" data-en="Instava">Instava</title>
+  <meta name="description"
+    data-ja="Instagramの公開投稿を、原画質のまま端末に保存するアプリ。"
+    data-en="An app that saves public Instagram posts to your device in original quality."
+    content="Instagramの公開投稿を、原画質のまま端末に保存するアプリ。">
   <link rel="stylesheet" href="/styles.css">
+  <script src="/i18n.js"></script>
 </head>
 <body>
   <div class="wrap">
-    <header>
+    <div class="top">
       <a class="brand" href="/">Instava</a>
-      <h1>公開投稿を、原画質のまま。</h1>
-      <p class="lead">Instagramの公開投稿URLから、写真・動画を端末に保存するアプリです。ログイン不要で、データは端末の中だけに残ります。</p>
-    </header>
-    <p>Google Play での公開に向けて準備中です。</p>
-    <nav>
-      <a href="/privacy/">プライバシーポリシー</a>
-    </nav>
+      <nav class="lang-switch" aria-label="Language">
+        <button type="button" data-set-lang="ja">日本語</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" data-set-lang="en">English</button>
+      </nav>
+    </div>
+
+    <div class="i18n" lang="ja">
+      <header>
+        <h1>公開投稿を、原画質のまま。</h1>
+        <p class="lead">Instagramの公開投稿URLから、写真・動画を端末に保存するアプリです。ログイン不要で、データは端末の中だけに残ります。</p>
+      </header>
+      <p>Google Play での公開に向けて準備中です。</p>
+      <nav>
+        <a href="/privacy/">プライバシーポリシー</a>
+      </nav>
+    </div>
+
+    <div class="i18n" lang="en">
+      <header>
+        <h1>Save public posts in original quality.</h1>
+        <p class="lead">Paste a public Instagram post URL to save photos and videos to your device. No login required — your data stays on the device.</p>
+      </header>
+      <p>Getting ready for Google Play.</p>
+      <nav>
+        <a href="/privacy/">Privacy Policy</a>
+      </nav>
+    </div>
   </div>
 </body>
 </html>
