@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title">
+  <title id="title">Instava transparent logo mark</title>
+  <path d="M490 112a22 22 0 0 1 44 0v62h36c18 0 27 22 15 34l-57 57a22 22 0 0 1-32 0l-57-57c-12-12-3-34 15-34h36z" fill="#8881BC"/>
+  <g transform="rotate(-5 512 404)">
+    <rect x="350" y="274" width="324" height="310" rx="54" fill="#F7F4EC" stroke="#151B33" stroke-width="22"/>
+    <rect x="388" y="312" width="248" height="210" rx="30" fill="#DCD8F1"/>
+    <circle cx="570" cy="358" r="25" fill="#8881BC"/>
+    <path d="M388 410l62-62 48 42 43-36 56 56z" fill="#9E98CB"/>
+  </g>
+  <path d="M242 474c0-36 29-64 65-64h410c36 0 65 28 65 64v214c0 86-70 156-156 156H398c-86 0-156-70-156-156z" fill="#F7F4EC" stroke="#151B33" stroke-width="24"/>
+  <path d="M286 472c74 35 148 52 226 52s152-17 226-52" fill="none" stroke="#DCD8F1" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="426" cy="654" r="23" fill="#151B33"/>
+  <circle cx="598" cy="654" r="23" fill="#151B33"/>
+  <circle cx="418" cy="646" r="7" fill="#F7F4EC"/>
+  <circle cx="590" cy="646" r="7" fill="#F7F4EC"/>
+  <path d="M470 704c12 14 26 21 42 21s30-7 42-21" fill="none" stroke="#151B33" stroke-width="18" stroke-linecap="round"/>
+</svg>
