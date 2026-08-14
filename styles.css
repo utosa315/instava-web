@@ -125,6 +125,10 @@ nav {
   font-size: 0.9rem;
 }
 
+nav a + a {
+  margin-left: 1.25rem;
+}
+
 .updated {
   font-size: 0.85rem;
   color: var(--muted);
