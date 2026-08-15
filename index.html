@@ -3,51 +3,132 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title data-ja="Instava" data-en="Instava">Instava</title>
+  <title data-ja="Instava｜公開投稿を、きれいなまま手元へ" data-en="Instava | Keep public posts in original quality">Instava｜公開投稿を、きれいなまま手元へ</title>
   <meta name="description"
-    data-ja="Instagramの公開投稿を、原画質のまま端末に保存するアプリ。"
-    data-en="An app that saves public Instagram posts to your device in original quality."
-    content="Instagramの公開投稿を、原画質のまま端末に保存するアプリ。">
+    data-ja="Instagramの公開投稿から写真・動画を原画質のまま端末へ。ログイン不要、カルーセルもまとめて保存できるAndroidアプリ Instava。"
+    data-en="Save photos and videos from public Instagram posts to your device in original quality. No login, with full carousel support."
+    content="Instagramの公開投稿から写真・動画を原画質のまま端末へ。ログイン不要、カルーセルもまとめて保存できるAndroidアプリ Instava。">
+  <meta name="theme-color" content="#f7f6f2">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/assets/hero-still-life.webp" as="image" type="image/webp">
   <link rel="stylesheet" href="/styles.css">
-  <script src="/i18n.js"></script>
+  <script src="/i18n.js" defer></script>
 </head>
-<body>
-  <div class="wrap">
-    <div class="top">
-      <a class="brand" href="/">Instava</a>
+<body class="landing">
+  <header class="site-header">
+    <a class="brand brand-lockup" href="/" aria-label="Instava home">
+      <img src="/favicon.svg" alt="" width="38" height="38">
+      <span>Instava</span>
+    </a>
+    <div class="header-actions">
+      <nav class="desktop-nav i18n" lang="ja" aria-label="ページ内ナビゲーション">
+        <a href="#features-ja">特徴</a><a href="#how-ja">使い方</a><a href="#privacy-ja">安心設計</a>
+      </nav>
+      <nav class="desktop-nav i18n" lang="en" aria-label="Page navigation">
+        <a href="#features-en">Features</a><a href="#how-en">How it works</a><a href="#privacy-en">Privacy</a>
+      </nav>
       <nav class="lang-switch" aria-label="Language">
-        <button type="button" data-set-lang="ja">日本語</button>
-        <span aria-hidden="true">/</span>
-        <button type="button" data-set-lang="en">English</button>
+        <button type="button" data-set-lang="ja">JA</button><span aria-hidden="true">/</span><button type="button" data-set-lang="en">EN</button>
       </nav>
     </div>
+  </header>
 
+  <main>
     <div class="i18n" lang="ja">
-      <header>
-        <h1>公開投稿を、原画質のまま。</h1>
-        <p class="lead">Instagramの公開投稿URLから、写真・動画を端末に保存するアプリです。ログイン不要で、データは端末の中だけに残ります。</p>
-      </header>
-      <p>Google Play での公開に向けて準備中です。</p>
-      <nav>
-        <a href="/privacy/">プライバシーポリシー</a>
-        <a href="/terms/">利用規約</a>
-      </nav>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Androidアプリ・まもなく公開</p>
+          <h1>残しておきたい投稿を、<br><span>きれいなまま手元へ。</span></h1>
+          <p class="hero-lead">公開投稿のURLを貼るだけ。写真も動画も、複数枚のカルーセルも、欲しいものを選んで端末へ保存できます。</p>
+          <div class="trust-list" aria-label="主な特徴">
+            <span><svg aria-hidden="true"><use href="#check"></use></svg>ログイン不要</span>
+            <span><svg aria-hidden="true"><use href="#check"></use></svg>原画質で保存</span>
+            <span><svg aria-hidden="true"><use href="#check"></use></svg>端末内で完結</span>
+          </div>
+          <a class="primary-cta" href="#release-ja"><svg aria-hidden="true"><use href="#play"></use></svg><span><small>Google Play</small>公開に向けて準備中</span></a>
+          <p class="cta-note">初回リリースはAndroid版を予定しています。</p>
+        </div>
+        <div class="hero-visual" aria-label="スマートフォンと大切な写真のイメージ">
+          <img src="/assets/hero-still-life.webp" alt="スマートフォンと旅の写真を並べた静かなデスク" width="1536" height="1024">
+          <div class="quality-badge"><strong>そのままの画質</strong><span>再エンコードなし</span></div>
+        </div>
+      </section>
+
+      <section class="intro section-shell" id="features-ja">
+        <p class="section-kicker">Simple by design</p>
+        <h2>保存するために、<br>迷わなくていい。</h2>
+        <p class="section-lead">必要な機能だけを、わかりやすく。余計な手順や派手な演出を減らし、投稿を見つけてから保存するまでを短くしました。</p>
+        <div class="feature-grid">
+          <article><div class="feature-icon"><svg aria-hidden="true"><use href="#layers"></use></svg></div><h3>カルーセルも一度に</h3><p>複数枚の写真や動画を一覧で確認。全部でも、必要なものだけでも選べます。</p></article>
+          <article><div class="feature-icon"><svg aria-hidden="true"><use href="#sparkle"></use></svg></div><h3>原画質のまま</h3><p>取得したメディアを再圧縮せず保存。細部や色を、できるだけ投稿時のまま残します。</p></article>
+          <article><div class="feature-icon"><svg aria-hidden="true"><use href="#folder"></use></svg></div><h3>保存後も見つけやすい</h3><p>Instava内の保存済み一覧から日付ごとに確認。端末のギャラリーにも残ります。</p></article>
+          <article><div class="feature-icon"><svg aria-hidden="true"><use href="#calm"></use></svg></div><h3>広告は控えめに</h3><p>操作を邪魔する広告だらけの体験にしない。落ち着いて使える設計を大切にします。</p></article>
+        </div>
+      </section>
+
+      <section class="steps-section" id="how-ja">
+        <div class="section-shell">
+          <p class="section-kicker">3 easy steps</p>
+          <h2>貼って、選んで、保存。</h2>
+          <p class="section-lead">覚えることは、ほとんどありません。</p>
+          <div class="steps-grid">
+            <article class="step-card"><div class="phone-frame"><img src="/assets/app-home-ja.webp" alt="投稿URLを貼り付けるInstavaのホーム画面" width="540" height="1212" loading="lazy"></div><div class="step-copy"><span>01</span><h3>URLを貼る</h3><p>Instagramの公開投稿からリンクをコピーして貼り付けます。</p></div></article>
+            <article class="step-card"><div class="phone-frame"><img src="/assets/app-select-ja.webp" alt="複数の写真から保存対象を選ぶ画面" width="540" height="1212" loading="lazy"></div><div class="step-copy"><span>02</span><h3>欲しいものを選ぶ</h3><p>写真・動画をプレビューして、保存したいものを選びます。</p></div></article>
+            <article class="step-card"><div class="phone-frame"><img src="/assets/app-saved-ja.webp" alt="端末に保存した写真を日付ごとに見る画面" width="540" height="1212" loading="lazy"></div><div class="step-copy"><span>03</span><h3>端末へ保存</h3><p>選んだメディアをまとめて保存。あとから一覧でも確認できます。</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="privacy-section section-shell" id="privacy-ja">
+        <div class="privacy-panel">
+          <div class="privacy-copy"><p class="section-kicker">Privacy, plainly</p><h2>あなたの写真を、<br>私たちのサーバーに預けません。</h2><p>投稿の取得は、あなたの端末からInstagramへ直接アクセス。Instavaの中継サーバーやアカウント登録はありません。</p><a class="text-link" href="/privacy/">プライバシーポリシーを読む <span>→</span></a></div>
+          <div class="privacy-points">
+            <div><svg aria-hidden="true"><use href="#user-off"></use></svg><span><strong>アカウント登録なし</strong><small>Instagramへのログインも不要です。</small></span></div>
+            <div><svg aria-hidden="true"><use href="#server-off"></use></svg><span><strong>中継サーバーなし</strong><small>保存データを当方へ送信しません。</small></span></div>
+            <div><svg aria-hidden="true"><use href="#device"></use></svg><span><strong>保存先はあなたの端末</strong><small>写真・動画は端末内で管理できます。</small></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="release section-shell" id="release-ja">
+        <div><p class="section-kicker">Coming soon</p><h2>大切な投稿を、<br>自分の手元に。</h2><p>InstavaはGoogle Playでの公開に向けて、最後の準備を進めています。</p></div>
+        <div class="release-mark"><img src="/favicon.svg" alt="Instava" width="96" height="96"><span>Android版<br>まもなく公開</span></div>
+      </section>
+      <aside class="usage-note section-shell"><strong>ご利用にあたって</strong><p>公開投稿のみが対象です。保存した写真・動画は、投稿者や権利者の権利を尊重し、私的利用の範囲でお使いください。InstavaはMeta / Instagramの公式アプリではありません。</p></aside>
     </div>
 
     <div class="i18n" lang="en">
-      <header>
-        <h1>Save public posts in original quality.</h1>
-        <p class="lead">Paste a public Instagram post URL to save photos and videos to your device. No login required — your data stays on the device.</p>
-      </header>
-      <p>Getting ready for Google Play.</p>
-      <nav>
-        <a href="/privacy/">Privacy Policy</a>
-        <a href="/terms/">Terms of Service</a>
-      </nav>
+      <section class="hero">
+        <div class="hero-copy"><p class="eyebrow">Android app · Coming soon</p><h1>Keep the posts you love,<br><span>just as they are.</span></h1><p class="hero-lead">Paste the URL of a public post. Choose the photos and videos you want—even from carousels—and save them straight to your device.</p><div class="trust-list"><span><svg aria-hidden="true"><use href="#check"></use></svg>No login</span><span><svg aria-hidden="true"><use href="#check"></use></svg>Original quality</span><span><svg aria-hidden="true"><use href="#check"></use></svg>On-device</span></div><a class="primary-cta" href="#release-en"><svg aria-hidden="true"><use href="#play"></use></svg><span><small>Google Play</small>Getting ready to launch</span></a><p class="cta-note">The first release will be available for Android.</p></div>
+        <div class="hero-visual" aria-label="A smartphone and meaningful photo prints"><img src="/assets/hero-still-life.webp" alt="A quiet desk with a smartphone and travel photo prints" width="1536" height="1024"><div class="quality-badge"><strong>Original quality</strong><span>No re-encoding</span></div></div>
+      </section>
+      <section class="intro section-shell" id="features-en"><p class="section-kicker">Simple by design</p><h2>Saving should feel<br>effortless.</h2><p class="section-lead">Only the features you need, clearly presented. Fewer distractions and a shorter path from finding a post to keeping it.</p><div class="feature-grid">
+        <article><div class="feature-icon"><svg aria-hidden="true"><use href="#layers"></use></svg></div><h3>Whole carousels</h3><p>See every photo and video in one view. Save them all, or select only what you want.</p></article>
+        <article><div class="feature-icon"><svg aria-hidden="true"><use href="#sparkle"></use></svg></div><h3>Original quality</h3><p>Media is saved without re-encoding, preserving as much detail and color as possible.</p></article>
+        <article><div class="feature-icon"><svg aria-hidden="true"><use href="#folder"></use></svg></div><h3>Easy to find later</h3><p>Browse saved media by date in Instava. Your files also remain in your device gallery.</p></article>
+        <article><div class="feature-icon"><svg aria-hidden="true"><use href="#calm"></use></svg></div><h3>Fewer interruptions</h3><p>We keep advertising restrained, so the app stays calm and focused on the task.</p></article>
+      </div></section>
+      <section class="steps-section" id="how-en"><div class="section-shell"><p class="section-kicker">3 easy steps</p><h2>Paste. Choose. Save.</h2><p class="section-lead">There is almost nothing to learn.</p><div class="steps-grid">
+        <article class="step-card"><div class="phone-frame"><img src="/assets/app-home-en.webp" alt="Instava home screen for pasting a post URL" width="540" height="1212" loading="lazy"></div><div class="step-copy"><span>01</span><h3>Paste the URL</h3><p>Copy the link to a public Instagram post and paste it into Instava.</p></div></article>
+        <article class="step-card"><div class="phone-frame"><img src="/assets/app-select-en.webp" alt="Screen for selecting media from a carousel" width="540" height="1212" loading="lazy"></div><div class="step-copy"><span>02</span><h3>Choose your media</h3><p>Preview each photo or video, then select the ones you want to keep.</p></div></article>
+        <article class="step-card"><div class="phone-frame"><img src="/assets/app-saved-en.webp" alt="Saved media organized by date" width="540" height="1212" loading="lazy"></div><div class="step-copy"><span>03</span><h3>Save to your device</h3><p>Save everything selected at once, then find it later in the saved view.</p></div></article>
+      </div></div></section>
+      <section class="privacy-section section-shell" id="privacy-en"><div class="privacy-panel"><div class="privacy-copy"><p class="section-kicker">Privacy, plainly</p><h2>Your photos never sit<br>on our servers.</h2><p>Your device connects directly to Instagram to fetch a post. Instava has no relay server and requires no account.</p><a class="text-link" href="/privacy/">Read our Privacy Policy <span>→</span></a></div><div class="privacy-points">
+        <div><svg aria-hidden="true"><use href="#user-off"></use></svg><span><strong>No account</strong><small>No Instagram login is required.</small></span></div>
+        <div><svg aria-hidden="true"><use href="#server-off"></use></svg><span><strong>No relay server</strong><small>Saved media is not sent to us.</small></span></div>
+        <div><svg aria-hidden="true"><use href="#device"></use></svg><span><strong>Saved on your device</strong><small>Your photos and videos stay under your control.</small></span></div>
+      </div></div></section>
+      <section class="release section-shell" id="release-en"><div><p class="section-kicker">Coming soon</p><h2>Keep meaningful posts<br>close at hand.</h2><p>Instava is in its final preparations for release on Google Play.</p></div><div class="release-mark"><img src="/favicon.svg" alt="Instava" width="96" height="96"><span>Android app<br>coming soon</span></div></section>
+      <aside class="usage-note section-shell"><strong>A note on responsible use</strong><p>Instava works with public posts only. Respect the rights of creators and rights holders, and use saved media for personal purposes. Instava is not an official Meta / Instagram app.</p></aside>
     </div>
-  </div>
+  </main>
+
+  <footer class="site-footer"><div class="footer-inner"><a class="brand brand-lockup" href="/"><img src="/favicon.svg" alt="" width="34" height="34"><span>Instava</span></a><div class="i18n footer-copy" lang="ja"><p>公開投稿を、きれいなまま手元へ。</p><nav><a href="/privacy/">プライバシーポリシー</a><a href="/terms/">利用規約</a></nav></div><div class="i18n footer-copy" lang="en"><p>Keep public posts in original quality.</p><nav><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Service</a></nav></div><small>© 2026 Tardigrader.App</small></div></footer>
+
+  <svg class="svg-defs" aria-hidden="true" width="0" height="0">
+    <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol><symbol id="play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7Z"/></symbol><symbol id="layers" viewBox="0 0 24 24"><path d="m12 3-9 5 9 5 9-5-9-5Z"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5"/></symbol><symbol id="sparkle" viewBox="0 0 24 24"><path d="M12 3c.7 5 4 8.3 9 9-5 .7-8.3 4-9 9-.7-5-4-8.3-9-9 5-.7 8.3-4 9-9Z"/></symbol><symbol id="folder" viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v11H3Z"/></symbol><symbol id="calm" viewBox="0 0 24 24"><path d="M4 9h16M7 5h10M7 13h10M10 17h4"/></symbol><symbol id="user-off" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-4 2-7 6-7 1.5 0 2.7.4 3.6 1.1M15 9l6 6m0-6-6 6"/></symbol><symbol id="server-off" viewBox="0 0 24 24"><path d="M4 5h16v5H4ZM4 14h9M7 7.5h.01M7 16.5h.01M15 13l6 6m0-6-6 6"/></symbol><symbol id="device" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M10 18h4"/></symbol>
+  </svg>
 </body>
 </html>
