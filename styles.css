@@ -74,6 +74,17 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
 .section-heading { margin-bottom: 50px; }
 .section-heading .section-kicker { margin-bottom: .75rem; }
 .section-heading h2, .trust h2, .release h2 { margin: 0; font-size: clamp(2.1rem, 4vw, 3.7rem); font-weight: 740; letter-spacing: -.06em; line-height: 1.15; }
+.compare { padding-bottom: 140px; }
+.compare-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.compare-grid article { padding: 30px 32px; border: 1px solid #e5e4df; border-radius: 22px; background: rgba(255,255,255,.55); }
+.compare-grid h3 { margin: 0 0 .9rem; font-size: 1.06rem; letter-spacing: -.02em; }
+.compare-grid ul { display: grid; gap: .5rem; margin: 0; padding: 0; list-style: none; font-size: .88rem; }
+.compare-grid li { position: relative; padding-left: 1.4rem; line-height: 1.75; }
+.compare-grid li::before { content: "×"; position: absolute; left: 0; top: 0; color: #b3b5bf; font-weight: 800; }
+.compare-instava { border-color: rgba(83, 98, 168, .45); background: var(--pale); }
+.compare-instava li { color: #4a4e60; }
+.compare-instava li::before { content: "✓"; color: var(--brand); }
+
 .how { padding-bottom: 140px; }
 .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; }
 .steps-grid article { min-width: 0; }
@@ -109,6 +120,7 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
   .hero-visual { min-height: 300px; border-radius: 22px; }.hero-visual img { object-position: 72% center; transform: scale(1.22); }
   .benefits { grid-template-columns: 1fr; gap: 12px; margin-bottom: 92px; }.benefits article { display: grid; grid-template-columns: 44px 1fr; gap: 16px; min-height: 0; padding: 24px; }.benefits svg { grid-row: 1 / span 2; width: 30px; height: 30px; margin: 2px 0 0; }.benefits h2 { font-size: 1.15rem; }.benefits p { font-size: .88rem; }
   .section-heading { margin-bottom: 36px; }.section-heading h2, .trust h2 { font-size: 2.35rem; }
+  .compare { padding-bottom: 90px; }.compare-grid { grid-template-columns: 1fr; gap: 12px; }.compare-grid article { padding: 24px; }
   .how { padding-bottom: 90px; }.steps-grid { display: flex; gap: 16px; margin: 0 -16px; padding: 0 16px 18px; overflow-x: auto; scroll-snap-type: x mandatory; }.steps-grid article { flex: 0 0 76vw; scroll-snap-align: center; }.phone-frame { max-height: 410px; }
   .trust { align-items: flex-start; padding: 34px 24px; }.trust > svg { display: none; }
   .release { align-items: flex-start; padding: 72px 0 50px; }.release > img { width: 64px; height: 64px; }.release h2 { font-size: 1.65rem; }
