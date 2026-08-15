@@ -41,6 +41,11 @@ html[lang="ja"] [data-set-lang="ja"], html[lang="en"] [data-set-lang="en"] { col
 /* Landing page */
 .landing { overflow-x: hidden; }
 .landing svg { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.landing h1, .landing h2, .landing h3 { text-wrap: balance; }
+.landing p { text-wrap: pretty; }
+.landing :lang(ja) p { word-break: auto-phrase; }
+.no-break { white-space: nowrap; }
+.mobile-break { display: none; }
 .svg-defs { position: absolute; overflow: hidden; }
 .site-header, .section-shell, .footer-inner { width: min(1080px, calc(100% - 48px)); margin-inline: auto; }
 .site-header { display: flex; align-items: center; justify-content: space-between; height: 84px; }
@@ -99,6 +104,7 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
 }
 
 @media (max-width: 640px) {
+  .mobile-break { display: inline; }
   .site-header, .section-shell, .footer-inner { width: calc(100% - 32px); }
   .site-header { height: 70px; }.brand-lockup { font-size: 1.05rem; }.brand-lockup img { width: 33px; height: 33px; }.header-actions { gap: 1rem; }.header-link { display: none !important; }
   .hero { width: 100%; min-height: 0; padding: 50px 16px 64px; gap: 36px; }
