@@ -86,6 +86,18 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
 .principle-list h3 { margin: -.25rem 0 .35rem; font-size: clamp(1.35rem, 2.4vw, 2.1rem); letter-spacing: -.04em; line-height: 1.35; }
 .principle-list p { margin: 0; font-size: .88rem; }
 
+.self-review { position: relative; margin-bottom: 148px; padding: 68px; background: var(--ink); box-shadow: 12px 12px 0 var(--signal); }
+.self-review::after { position: absolute; right: 24px; top: 20px; content: "HONEST NOTE"; color: rgba(255,255,255,.16); font-size: .65rem; font-weight: 850; letter-spacing: .2em; }
+.self-review .section-kicker { color: var(--marker); }
+.self-review-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 76px; }
+.self-review h2 { margin: 0; color: #fff; font-size: clamp(2.45rem, 4.4vw, 4.35rem); letter-spacing: -.065em; line-height: 1.12; }
+html[lang="ja"] .self-review h2 { font-size: clamp(2.35rem, 3.8vw, 3.75rem); }
+.self-review h2 span { color: var(--marker); }
+.self-review blockquote { margin: 0; padding: 0; }
+.self-review blockquote p { margin: 0 0 1rem; color: #c9c7c0; font-size: .93rem; line-height: 1.9; }
+.self-review blockquote .review-lead { color: #fff; font-size: 1.14rem; font-weight: 680; }
+.self-review blockquote footer { margin-top: 1.6rem; color: #fff; font-size: .74rem; font-weight: 800; }
+
 .section-heading { margin-bottom: 50px; }
 .section-heading .section-kicker { margin-bottom: .75rem; }
 .section-heading h2, .trust h2, .release h2 { margin: 0; font-size: clamp(2.1rem, 4vw, 3.7rem); font-weight: 760; letter-spacing: -.06em; line-height: 1.15; }
@@ -117,6 +129,7 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
   .hero { grid-template-columns: 1fr; gap: 70px; }
   .hero-copy { max-width: 680px; }.hero-visual { max-width: 760px; }
   .manifesto { grid-template-columns: 1fr; gap: 28px; }.manifesto-copy { padding-top: 0; }
+  .self-review-grid { grid-template-columns: 1fr; gap: 34px; }
 }
 
 @media (max-width: 640px) {
@@ -128,6 +141,7 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
   .hero-visual { margin-right: 12px; }.hero-visual img { box-shadow: 9px 9px 0 var(--ink); }.visual-label { left: 14px; }.visual-note { right: -8px; bottom: -46px; }
   .manifesto { gap: 24px; margin-bottom: 90px; padding: 48px 0; }.manifesto h2 { font-size: 2.35rem; }.manifesto-copy p { font-size: .92rem; }
   .principles { margin-bottom: 96px; }.principle-list article { grid-template-columns: 42px 1fr; gap: 12px; padding: 24px 0; }.principle-list svg { display: none; }.principle-list h3 { margin-top: -.2rem; font-size: 1.35rem; }
+  .self-review { margin-bottom: 96px; padding: 42px 26px; box-shadow: 8px 8px 0 var(--signal); }.self-review-grid { gap: 28px; }.self-review h2 { font-size: 2.65rem; }.self-review blockquote .review-lead { font-size: 1.04rem; }
   .section-heading { margin-bottom: 36px; }.section-heading h2, .trust h2 { font-size: 2.35rem; }
   .how { padding-bottom: 90px; }.steps-grid { display: flex; gap: 18px; margin: 0 -16px; padding: 0 22px 20px 16px; overflow-x: auto; scroll-snap-type: x mandatory; }.steps-grid article, .steps-grid article:nth-child(2) { flex: 0 0 76vw; transform: none; scroll-snap-align: center; }.phone-frame { max-height: 410px; }
   .trust { align-items: flex-start; padding: 34px 24px; }.trust > svg { display: none; }
