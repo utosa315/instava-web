@@ -28,6 +28,11 @@ html[lang="ja"] .i18n[lang="ja"], html[lang="en"] .i18n[lang="en"] { display: bl
 .brand { color: var(--ink); font-weight: 750; text-decoration: none; }
 .lang-switch { display: flex; align-items: center; gap: .4rem; color: #aaa; font-size: .78rem; }
 .lang-switch button { border: 0; padding: .35rem .1rem; color: #92939c; background: transparent; cursor: pointer; font: inherit; font-weight: 700; }
+.lang-select { position: relative; }
+.lang-select select { max-width: 150px; padding: 7px 30px 7px 10px; border: 1px solid var(--ink); border-radius: 0; background: var(--paper); color: var(--ink); font: inherit; font-size: .8rem; font-weight: 800; cursor: pointer; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+html[dir="rtl"] .landing { direction: rtl; }
+html[dir="rtl"] .hero-render, html[dir="rtl"] .phone-frame { direction: ltr; }
 html[lang="ja"] [data-set-lang="ja"], html[lang="en"] [data-set-lang="en"] { color: var(--brand); }
 
 /* Legal pages */
@@ -60,6 +65,7 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
 .eyebrow, .section-kicker { margin: 0 0 .9rem; color: var(--brand); font-size: .68rem; font-weight: 850; letter-spacing: .18em; text-transform: uppercase; }
 .hero h1 { margin: 0; font-size: clamp(3.4rem, 5.7vw, 6.2rem); font-weight: 780; letter-spacing: -.08em; line-height: 1.01; }
 html[lang="ja"] .hero h1 { font-size: clamp(3.25rem, 4.8vw, 5.2rem); }
+html:not([lang="ja"]):not([lang="en"]) .hero h1 { font-size: clamp(2.45rem, 4.5vw, 4.8rem); letter-spacing: -.045em; }
 .hero h1 span { color: var(--ink); background: linear-gradient(transparent 63%, var(--marker) 63%); box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .hero-lead { max-width: 500px; margin: 1.7rem 0 2rem; color: #4f5260; font-size: 1.08rem; line-height: 1.9; }
 .play-badge { display: inline-block; line-height: 0; }

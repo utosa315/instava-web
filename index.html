@@ -29,6 +29,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="preload" href="/assets/app-select-ja.webp" as="image" type="image/webp">
   <link rel="stylesheet" href="/styles.css">
+  <script src="/landing-locales.js" defer></script>
   <script src="/i18n.js" defer></script>
   <script type="application/ld+json">
     {
@@ -55,7 +56,7 @@
     <div class="header-actions">
       <a class="header-link i18n" lang="ja" href="#how-ja">使い方</a>
       <a class="header-link i18n" lang="en" href="#how-en">How it works</a>
-      <nav class="lang-switch" aria-label="Language"><button type="button" data-set-lang="ja">JA</button><span aria-hidden="true">/</span><button type="button" data-set-lang="en">EN</button></nav>
+      <label class="lang-select"><span class="sr-only">Language</span><select id="language-select" aria-label="Language"><option value="ja">日本語</option><option value="en">English</option><option value="de">Deutsch</option><option value="es">Español</option><option value="fr">Français</option><option value="hi">हिन्दी</option><option value="id">Bahasa Indonesia</option><option value="it">Italiano</option><option value="ko">한국어</option><option value="pt">Português</option><option value="th">ไทย</option><option value="tr">Türkçe</option><option value="vi">Tiếng Việt</option><option value="zh">繁體中文</option><option value="ar">العربية</option></select></label>
     </div>
   </header>
 
@@ -202,6 +203,7 @@
       <section class="release section-shell" id="release-en"><img class="release-icon" src="/favicon.svg" alt="Instava" width="76" height="76"><div><p class="section-kicker">Available now</p><h2>Available now on Google Play.</h2><p>Install Instava for free on your Android device.</p><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="200" height="77" loading="lazy"></a></div><img class="spot-mascot mascot-wave" src="/assets/mascot-wave.webp" alt="" width="360" height="360" loading="lazy" aria-hidden="true"></section>
       <aside class="usage-note section-shell"><p><strong>A note on responsible use</strong> Instava works with public posts. Respect the rights of creators and rights holders, and use saved media for personal purposes. Instava is not an official Meta / Instagram app.</p></aside>
     </div>
+    <div id="localized-landing"></div>
   </main>
 
   <footer class="site-footer"><div class="footer-inner"><a class="brand brand-lockup" href="/"><img src="/favicon.svg" alt="" width="34" height="34"><span>Instava</span></a><nav><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav><small>© 2026 Tardigrader.App</small></div></footer>
