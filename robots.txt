@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://instava.tardigrader.com/sitemap.xml

@@ -119,6 +119,7 @@ html[lang="ja"] .self-review h2 { font-size: clamp(2.35rem, 3.8vw, 3.75rem); }
 .section-heading .section-kicker { margin-bottom: .75rem; }
 .section-heading h2, .trust h2, .release h2 { margin: 0; font-size: clamp(2.1rem, 4vw, 3.7rem); font-weight: 760; letter-spacing: -.06em; line-height: 1.15; }
 .section-heading h2 span { color: var(--signal); }
+.section-subhead { margin: 1rem 0 0; color: var(--ink); font-size: .9rem; font-weight: 750; }
 .how { padding-bottom: 140px; }
 .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; }
 .steps-grid article { min-width: 0; }
@@ -161,6 +162,7 @@ html[lang="ja"] .self-review h2 { font-size: clamp(2.35rem, 3.8vw, 3.75rem); }
   .principles { margin-bottom: 96px; }.principle-list article { grid-template-columns: 42px 1fr; gap: 12px; padding: 24px 0; }.principle-list svg { display: none; }.principle-list h3 { margin-top: -.2rem; font-size: 1.35rem; }
   .self-review { margin-bottom: 96px; padding: 54px 26px 42px; box-shadow: 8px 8px 0 var(--signal); }.self-review::before { right: 8px; bottom: -58px; font-size: 8rem; }.review-label { right: 18px; top: -20px; padding: 10px 13px 8px; box-shadow: 4px 4px 0 var(--signal); }.self-review-grid { gap: 28px; }.self-review h2 { font-size: 2.65rem; }.review-margin-note { margin-top: 26px; }.self-review blockquote .review-lead { margin-left: -12px; padding-left: 12px; font-size: 1.04rem; }.mascot-proud { left: -15px; bottom: -44px; width: 78px; }
   .section-heading { margin-bottom: 36px; }.section-heading h2, .trust h2 { font-size: 2.35rem; }
+  #how-ja h2 { font-size: 2.05rem; }
   .how { padding-bottom: 90px; }.steps-grid { display: flex; gap: 18px; margin: 0 -16px; padding: 0 22px 20px 16px; overflow-x: auto; scroll-snap-type: x mandatory; }.steps-grid article, .steps-grid article:nth-child(2) { flex: 0 0 76vw; transform: none; scroll-snap-align: center; }.phone-frame { max-height: 410px; }
   .trust { align-items: flex-start; padding: 34px 24px; }.trust > svg { display: none; }
   .release { align-items: flex-start; margin-top: 82px; padding: 46px 0; }.release > .release-icon { width: 64px; height: 64px; }.release h2 { font-size: 1.65rem; }.mascot-wave { right: -5px; bottom: -30px; width: 72px; }
