@@ -12,7 +12,6 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="preload" href="/assets/hero-fetched-v3.webp" as="image" type="image/webp">
   <link rel="stylesheet" href="/styles.css">
   <script src="/i18n.js" defer></script>
 </head>
@@ -31,11 +30,16 @@
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">個人開発 / Android</p>
-          <h1>保存したいだけなのに、<br><span>また広告。</span><br>それが嫌で作りました。</h1>
+          <h1>保存したい。<br><span>また広告。</span><br>それが嫌で、<br>作りました。</h1>
           <p class="hero-lead">Instagramの写真や動画を保存しようとするたび、何度も全画面広告が割り込む。自分自身、それがあまりに使いづらくてInstavaを作りました。</p>
-          <div class="hero-action"><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png" alt="Google Play で手に入れよう" width="200" height="77"></a><p>ひとりで作って、<br>Google Playで公開しています。</p></div>
+          <div class="hero-action"><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png" alt="Google Play で手に入れよう" width="200" height="77"></a></div>
         </div>
-        <div class="hero-visual"><span class="visual-label">実際のアプリ画面</span><img src="/assets/hero-fetched-v3.webp" alt="Instavaで公開投稿のメディアを取得した画面を表示するスマートフォン" width="1536" height="1024"><p class="visual-note">貼る。選ぶ。保存する。<br><strong>それだけ。</strong></p></div>
+        <aside class="hero-side" aria-label="Instavaの使い方">
+          <p class="hero-side-label">JUST SAVE IT.</p><p class="hero-side-marker">寄り道なし。</p>
+          <ol><li><strong>貼る</strong><small>公開投稿のURL</small></li><li><strong>選ぶ</strong><small>欲しい写真や動画</small></li><li><strong>保存</strong><small>原画質のまま端末へ</small></li></ol>
+          <p class="hero-side-foot">写真 / 動画 / 複数枚投稿</p>
+        </aside>
+        <div class="hero-strip" aria-label="Instavaの特徴"><span>Instagramの写真・動画</span><b aria-hidden="true">✦</b><span>ログイン不要</span><b aria-hidden="true">✦</b><span>突然の全画面広告なし</span></div>
       </section>
 
       <section class="manifesto section-shell" aria-labelledby="founder-ja">
@@ -81,8 +85,13 @@
 
     <div class="i18n" lang="en">
       <section class="hero">
-        <div class="hero-copy"><p class="eyebrow">Indie built / Android</p><h1>Just trying to save.<br><span>Another ad.</span><br>So I built my own.</h1><p class="hero-lead">Every time I tried to save an Instagram photo or video, another full-screen ad got in the way. A simple task had become frustrating, so I built Instava.</p><div class="hero-action"><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="200" height="77"></a><p>Built by one developer.<br>Available on Google Play.</p></div></div>
-        <div class="hero-visual"><span class="visual-label">The actual app</span><img src="/assets/hero-fetched-v3.webp" alt="A smartphone showing media fetched from a public post in Instava" width="1536" height="1024"><p class="visual-note">Paste. Choose. Save.<br><strong>That’s it.</strong></p></div>
+        <div class="hero-copy"><p class="eyebrow">Indie built / Android</p><h1>Just trying to save.<br><span>Another ad.</span><br>So I built my own.</h1><p class="hero-lead">Every time I tried to save an Instagram photo or video, another full-screen ad got in the way. A simple task had become frustrating, so I built Instava.</p><div class="hero-action"><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" width="200" height="77"></a></div></div>
+        <aside class="hero-side" aria-label="How to use Instava">
+          <p class="hero-side-label">JUST SAVE IT.</p><p class="hero-side-marker">No detours.</p>
+          <ol><li><strong>Paste</strong><small>The public-post URL</small></li><li><strong>Choose</strong><small>The photos and videos you want</small></li><li><strong>Save</strong><small>Original quality, on your device</small></li></ol>
+          <p class="hero-side-foot">PHOTOS / VIDEOS / CAROUSELS</p>
+        </aside>
+        <div class="hero-strip" aria-label="Instava features"><span>Instagram photos &amp; videos</span><b aria-hidden="true">✦</b><span>No login</span><b aria-hidden="true">✦</b><span>No surprise full-screen ads</span></div>
       </section>
 
       <section class="manifesto section-shell" aria-labelledby="founder-en">
