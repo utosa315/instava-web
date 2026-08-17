@@ -59,10 +59,8 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
 .hero h1 { margin: 0; font-size: clamp(3.15rem, 4.8vw, 5.2rem); font-weight: 750; letter-spacing: -.075em; line-height: 1.08; }
 .hero h1 span { color: var(--brand); }
 .hero-lead { max-width: 500px; margin: 1.7rem 0 2rem; color: #4f5260; font-size: 1.08rem; line-height: 1.9; }
-.primary-cta { display: inline-flex; align-items: center; gap: .8rem; padding: .85rem 1.2rem; border-radius: 13px; background: var(--ink); color: #fff; box-shadow: 0 10px 28px rgba(23,25,39,.16); text-decoration: none; }
-.primary-cta svg { width: 22px; height: 22px; fill: currentColor; stroke: none; }
-.primary-cta span { display: flex; flex-direction: column; color: #fff; font-size: .91rem; font-weight: 750; line-height: 1.25; }
-.primary-cta small { color: #c9cbd4; font-size: .62rem; font-weight: 600; }
+.play-badge { display: inline-block; line-height: 0; }
+.play-badge img { display: block; width: 200px; height: auto; }
 .hero-visual { min-height: 520px; overflow: hidden; border-radius: 32px; box-shadow: 0 22px 60px rgba(27,31,55,.1); }
 .hero-visual img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center; }
 
@@ -100,7 +98,7 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
 .release { display: flex; align-items: center; gap: 28px; padding: 100px 0 70px; }
 .release > img { border-radius: 20px; box-shadow: 0 12px 32px rgba(28,31,50,.1); }
 .release .section-kicker { margin-bottom: .35rem; }.release h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); }.release p:not(.section-kicker) { margin: .3rem 0 0; font-size: .8rem; }
-.release .primary-cta { margin-top: 1.15rem; }
+.release .play-badge { margin-top: .65rem; }
 .usage-note { padding: 0 0 80px; font-size: .7rem; }.usage-note p { max-width: 900px; margin: 0; }.usage-note strong { margin-right: .55rem; color: var(--ink); }
 
 .site-footer { border-top: 1px solid var(--line); }
