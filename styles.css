@@ -82,13 +82,25 @@ html[lang="ja"] .hero h1 { font-size: clamp(3.25rem, 4.8vw, 5.2rem); }
 .hero-proof strong { font-size: .98rem; }
 .hero-proof span { color: #5b5540; font-size: .72rem; font-weight: 700; }
 
-.manifesto { position: relative; display: grid; grid-template-columns: .9fr 1.1fr; gap: 80px; margin-bottom: 138px; padding: 68px 0; border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
+.manifesto { position: relative; display: grid; grid-template-columns: .9fr 1.1fr; gap: 80px; margin-bottom: 100px; padding: 68px 0; border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
 .mascot-quiet { position: absolute; right: -20px; top: -72px; width: 104px; transform: rotate(7deg); }
 .manifesto h2 { margin: 0; font-size: clamp(2.25rem, 4vw, 4rem); font-weight: 760; letter-spacing: -.065em; line-height: 1.15; }
 .manifesto h2 span { color: var(--signal); }
 .manifesto-copy { padding-top: 24px; }
 .manifesto-copy p { max-width: 620px; margin: 0 0 1rem; font-size: .98rem; line-height: 1.95; }
 .manifesto-copy .founder-sign { margin-top: 1.6rem; color: var(--ink); font-size: .74rem; font-weight: 800; }
+
+.formats { margin-bottom: 148px; }
+.format-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
+.format-grid article { min-width: 0; padding: 30px 28px 32px; }
+.format-grid article + article { border-left: 1px solid var(--ink); }
+.format-grid article:nth-child(2) { background: var(--pale); }
+.format-grid article:nth-child(3) { background: rgba(242,223,99,.38); }
+.format-tag { display: inline-block; margin-bottom: 18px; padding: 3px 8px 2px; border: 1px solid currentColor; color: var(--signal); font-size: .62rem; font-weight: 900; letter-spacing: .12em; line-height: 1.4; transform: rotate(-1.5deg); }
+.format-grid h3 { margin: 0 0 .65rem; font-size: clamp(1.35rem, 2.1vw, 1.85rem); letter-spacing: -.045em; line-height: 1.3; }
+.format-grid p { margin: 0; font-size: .84rem; line-height: 1.85; }
+.format-note { margin: 20px 0 0; padding: 14px 18px; border-left: 5px solid var(--signal); background: rgba(255,255,255,.42); font-size: .76rem; }
+.format-note strong { margin-right: .7rem; color: var(--ink); }
 
 .principles { margin-bottom: 148px; }
 .principle-list { border-top: 2px solid var(--ink); }
@@ -119,6 +131,7 @@ html[lang="ja"] .self-review h2 { font-size: clamp(2.35rem, 3.8vw, 3.75rem); }
 .section-heading .section-kicker { margin-bottom: .75rem; }
 .section-heading h2, .trust h2, .release h2 { margin: 0; font-size: clamp(2.1rem, 4vw, 3.7rem); font-weight: 760; letter-spacing: -.06em; line-height: 1.15; }
 .section-heading h2 span { color: var(--signal); }
+.section-subhead { margin: 1rem 0 0; color: var(--ink); font-size: .9rem; font-weight: 750; }
 .how { padding-bottom: 140px; }
 .steps-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; }
 .steps-grid article { min-width: 0; }
@@ -157,10 +170,12 @@ html[lang="ja"] .self-review h2 { font-size: clamp(2.35rem, 3.8vw, 3.75rem); }
   .hero { width: 100%; min-height: 0; padding: 54px 16px 96px; gap: 52px; }
   .hero h1 { font-size: clamp(2.55rem, 12.4vw, 3.7rem); }.hero-lead { margin: 1.35rem 0 1.7rem; font-size: .95rem; }
   .hero-render { width: calc(100% - 10px); margin: 0 10px 0 0; transform: rotate(.35deg); }.hero-render > img:not(.spot-mascot) { box-shadow: 9px 9px 0 var(--signal); }.hero-flow { margin: -15px 5px 0 9px; box-shadow: 4px 4px 0 var(--ink); }.hero-flow li { display: block; min-height: 72px; padding: 9px 5px 7px; text-align: center; }.hero-flow li > span { width: 22px; height: 22px; margin: 0 auto 5px; font-size: .6rem; }.hero-flow strong { font-size: .59rem; line-height: 1.3; }.mascot-link { left: -13px; bottom: -50px; width: 70px; }.hero-proof { grid-template-columns: repeat(3, 1fr); margin: -10px 7px 0 -4px; }.hero-proof .proof-intro { grid-column: 1 / -1; min-height: 38px; padding: 8px 12px; font-size: .72rem; }.hero-proof p { min-height: 84px; padding: 10px 7px; border-top: 1px solid rgba(23,25,39,.35); text-align: center; }.hero-proof strong { font-size: .82rem; }.hero-proof span { font-size: .64rem; }
-  .manifesto { gap: 24px; margin-bottom: 90px; padding: 48px 0; }.manifesto h2 { font-size: 2.35rem; }.manifesto-copy p { font-size: .92rem; }.mascot-quiet { right: -3px; top: -52px; width: 72px; }
+  .manifesto { gap: 24px; margin-bottom: 72px; padding: 48px 0; }.manifesto h2 { font-size: 2.35rem; }.manifesto-copy p { font-size: .92rem; }.mascot-quiet { right: -3px; top: -52px; width: 72px; }
+  .formats { margin-bottom: 96px; }.format-grid { grid-template-columns: 1fr; }.format-grid article { padding: 25px 20px 26px; }.format-grid article + article { border-top: 1px solid var(--ink); border-left: 0; }.format-tag { margin-bottom: 12px; }.format-note { padding: 12px 14px; }
   .principles { margin-bottom: 96px; }.principle-list article { grid-template-columns: 42px 1fr; gap: 12px; padding: 24px 0; }.principle-list svg { display: none; }.principle-list h3 { margin-top: -.2rem; font-size: 1.35rem; }
   .self-review { margin-bottom: 96px; padding: 54px 26px 42px; box-shadow: 8px 8px 0 var(--signal); }.self-review::before { right: 8px; bottom: -58px; font-size: 8rem; }.review-label { right: 18px; top: -20px; padding: 10px 13px 8px; box-shadow: 4px 4px 0 var(--signal); }.self-review-grid { gap: 28px; }.self-review h2 { font-size: 2.65rem; }.review-margin-note { margin-top: 26px; }.self-review blockquote .review-lead { margin-left: -12px; padding-left: 12px; font-size: 1.04rem; }.mascot-proud { left: -15px; bottom: -44px; width: 78px; }
   .section-heading { margin-bottom: 36px; }.section-heading h2, .trust h2 { font-size: 2.35rem; }
+  #how-ja h2 { font-size: 2.05rem; }
   .how { padding-bottom: 90px; }.steps-grid { display: flex; gap: 18px; margin: 0 -16px; padding: 0 22px 20px 16px; overflow-x: auto; scroll-snap-type: x mandatory; }.steps-grid article, .steps-grid article:nth-child(2) { flex: 0 0 76vw; transform: none; scroll-snap-align: center; }.phone-frame { max-height: 410px; }
   .trust { align-items: flex-start; padding: 34px 24px; }.trust > svg { display: none; }
   .release { align-items: flex-start; margin-top: 82px; padding: 46px 0; }.release > .release-icon { width: 64px; height: 64px; }.release h2 { font-size: 1.65rem; }.mascot-wave { right: -5px; bottom: -30px; width: 72px; }

@@ -39,6 +39,13 @@
 
     var desc = document.querySelector('meta[name="description"]');
     if (desc && desc.dataset[lang]) desc.setAttribute("content", desc.dataset[lang]);
+
+    var localizedMeta = document.querySelectorAll("meta[data-ja][data-en]");
+    for (var i = 0; i < localizedMeta.length; i++) {
+      if (localizedMeta[i].dataset[lang]) {
+        localizedMeta[i].setAttribute("content", localizedMeta[i].dataset[lang]);
+      }
+    }
   }
 
   apply(detect());
