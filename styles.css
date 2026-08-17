@@ -100,6 +100,7 @@ html[lang="ja"] .header-link[lang="ja"], html[lang="en"] .header-link[lang="en"]
 .release { display: flex; align-items: center; gap: 28px; padding: 100px 0 70px; }
 .release > img { border-radius: 20px; box-shadow: 0 12px 32px rgba(28,31,50,.1); }
 .release .section-kicker { margin-bottom: .35rem; }.release h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); }.release p:not(.section-kicker) { margin: .3rem 0 0; font-size: .8rem; }
+.release .primary-cta { margin-top: 1.15rem; }
 .usage-note { padding: 0 0 80px; font-size: .7rem; }.usage-note p { max-width: 900px; margin: 0; }.usage-note strong { margin-right: .55rem; color: var(--ink); }
 
 .site-footer { border-top: 1px solid var(--line); }
