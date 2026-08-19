@@ -2,7 +2,7 @@ window.INSTAVA_LANDING_LOCALES = {
   de: {
     title: "Instava – Instagram-Fotos & Videos speichern",
     tag: "Instagram-Fotos, -Videos und Reels in Originalqualität speichern. Ohne Login.",
-    intro: "Füge einfach die URL eines öffentlichen Instagram-Beitrags ein und speichere Fotos, Videos und Reels in Originalqualität. Auch Karussell-Beiträge werden unterstützt.",
+    intro: "Füge einfach die URL eines öffentlichen Instagram-Beitrags ein und speichere Fotos, Videos und Reels in Originalqualität. Wähle bei Karussell-Beiträgen die gewünschten Fotos und Videos aus und speichere sie gemeinsam.",
     story: ["Warum ich Instava entwickelt habe", "Genug von plötzlich startender Videowerbung.", "Viele der Instagram-Speicher-Apps, die ich ausprobiert habe, zeigten immer wieder Vollbild-Videowerbung. Sie startete mitunter plötzlich mit Ton – beim Öffnen der App oder beim Zurückkehren, obwohl ich nur ein Foto speichern wollte.", "Deshalb schützt Instava den einfachen Ablauf – URL einfügen, auswählen, speichern – vor unerwarteter Vollbild-Videowerbung.", "— Der Entwickler von Instava"],
     how: "In 3 Schritten gespeichert",
     steps: ["Beitragslink kopieren", "In Instava einfügen", "Auswählen und speichern"],
@@ -17,7 +17,7 @@ window.INSTAVA_LANDING_LOCALES = {
   es: {
     title: "Instava – Guarda fotos y videos de Instagram",
     tag: "Guarda fotos, videos y Reels de Instagram en calidad original. Sin iniciar sesión.",
-    intro: "Pega la URL de una publicación pública de Instagram y guarda fotos, videos y Reels con la calidad original. También se admiten los carruseles.",
+    intro: "Pega la URL de una publicación pública de Instagram y guarda fotos, videos y Reels con la calidad original. En los carruseles, elige las fotos y videos que quieras y guárdalos juntos.",
     story: ["Por qué creé Instava", "Cansado de los anuncios de video inesperados.", "Muchas de las apps para guardar contenido de Instagram que probé mostraban anuncios de video a pantalla completa una y otra vez. A veces empezaban de repente y con sonido al abrir la app o volver a ella, cuando yo solo quería guardar una foto.", "Por eso hice Instava para que nada interrumpa el flujo más sencillo: pegar la URL, elegir y guardar. Sin anuncios de video a pantalla completa inesperados.", "— El desarrollador de Instava"],
     how: "Tres pasos y listo",
     steps: ["Copia el enlace", "Pégalo en Instava", "Elige y guarda"],
@@ -32,7 +32,7 @@ window.INSTAVA_LANDING_LOCALES = {
   fr: {
     title: "Instava – Enregistrer les photos et vidéos Instagram",
     tag: "Enregistrez les photos, vidéos et Reels Instagram en qualité d’origine. Sans compte.",
-    intro: "Collez l’URL d’une publication Instagram publique et enregistrez photos, vidéos et Reels en qualité d’origine. Les carrousels sont également pris en charge.",
+    intro: "Collez l’URL d’une publication Instagram publique et enregistrez photos, vidéos et Reels en qualité d’origine. Dans un carrousel, sélectionnez les photos et vidéos souhaitées et enregistrez-les ensemble.",
     story: ["Pourquoi j’ai créé Instava", "J’en avais assez des publicités vidéo surprises.", "Beaucoup d’apps d’enregistrement Instagram que j’ai testées affichaient sans cesse des publicités vidéo plein écran. Elles pouvaient démarrer soudainement avec le son à l’ouverture de l’app ou lorsque j’y revenais, alors que je voulais simplement enregistrer une photo.", "J’ai donc créé Instava pour préserver un parcours simple : coller l’URL, choisir et enregistrer. Aucune publicité vidéo plein écran inattendue ne vient l’interrompre.", "— Le développeur d’Instava"],
     how: "3 étapes, c’est tout",
     steps: ["Copiez le lien", "Collez-le dans Instava", "Choisissez et enregistrez"],
@@ -47,7 +47,7 @@ window.INSTAVA_LANDING_LOCALES = {
   hi: {
     title: "Instava – Instagram फ़ोटो और वीडियो सेव करें",
     tag: "Instagram फ़ोटो, वीडियो और Reels असली क्वालिटी में सेव करें। लॉगिन की ज़रूरत नहीं।",
-    intro: "किसी सार्वजनिक Instagram पोस्ट का URL पेस्ट करें और फ़ोटो, वीडियो व Reels असली क्वालिटी में सेव करें। कैरोसेल पोस्ट भी सपोर्टेड हैं।",
+    intro: "किसी सार्वजनिक Instagram पोस्ट का URL पेस्ट करें और फ़ोटो, वीडियो व Reels असली क्वालिटी में सेव करें। कैरोसेल से अपनी पसंद की फ़ोटो और वीडियो चुनकर एक साथ सेव करें।",
     story: ["मैंने Instava क्यों बनाया", "अचानक चलने वाले वीडियो विज्ञापनों से तंग आ गया था।", "मैंने जिन Instagram सेविंग ऐप्स को आज़माया, उनमें से कई बार-बार फुल-स्क्रीन वीडियो विज्ञापन दिखाते थे। सिर्फ़ एक फ़ोटो सेव करनी होती थी, लेकिन ऐप खोलते या वापस आते ही वे अचानक आवाज़ के साथ शुरू हो जाते थे।", "इसलिए मैंने Instava को एक आसान क्रम के लिए बनाया: URL पेस्ट करें, चुनें और सेव करें—बीच में कोई अनचाहा फुल-स्क्रीन वीडियो विज्ञापन नहीं।", "— Instava डेवलपर"],
     how: "बस 3 आसान स्टेप",
     steps: ["पोस्ट का लिंक कॉपी करें", "Instava में पेस्ट करें", "चुनें और सेव करें"],
@@ -62,7 +62,7 @@ window.INSTAVA_LANDING_LOCALES = {
   id: {
     title: "Instava – Simpan foto & video Instagram",
     tag: "Simpan foto, video, dan Reels Instagram dalam kualitas asli. Tanpa login.",
-    intro: "Tempel URL postingan Instagram publik dan simpan foto, video, serta Reels dalam kualitas asli. Postingan carousel juga didukung.",
+    intro: "Tempel URL postingan Instagram publik dan simpan foto, video, serta Reels dalam kualitas asli. Dari carousel, pilih foto dan video yang Anda inginkan lalu simpan bersama-sama.",
     story: ["Mengapa saya membuat Instava", "Muak dengan iklan video yang muncul tiba-tiba.", "Banyak aplikasi penyimpan Instagram yang saya coba berulang kali menampilkan iklan video layar penuh. Iklan itu kadang tiba-tiba dimulai dengan suara saat aplikasi dibuka atau saat saya kembali, padahal saya hanya ingin menyimpan satu foto.", "Karena itu, Instava menjaga alur sederhana—tempel URL, pilih, lalu simpan—agar tidak terganggu iklan video layar penuh yang tidak terduga.", "— Pengembang Instava"],
     how: "Hanya 3 langkah",
     steps: ["Salin tautan", "Tempel di Instava", "Pilih dan simpan"],
@@ -77,7 +77,7 @@ window.INSTAVA_LANDING_LOCALES = {
   it: {
     title: "Instava – Salva foto e video da Instagram",
     tag: "Salva foto, video e Reel di Instagram in qualità originale. Niente login.",
-    intro: "Incolla l’URL di un post Instagram pubblico e salva foto, video e Reel in qualità originale. Sono supportati anche i post carosello.",
+    intro: "Incolla l’URL di un post Instagram pubblico e salva foto, video e Reel in qualità originale. Da un carosello, scegli le foto e i video che vuoi e salvali insieme.",
     story: ["Perché ho creato Instava", "Ero stufo dei video pubblicitari a sorpresa.", "Molte app per salvare contenuti da Instagram che ho provato mostravano ripetutamente pubblicità video a schermo intero. Potevano partire all’improvviso con l’audio all’apertura dell’app o quando ci tornavo, mentre volevo soltanto salvare una foto.", "Per questo ho creato Instava attorno a un flusso semplice—incolla l’URL, scegli e salva—senza pubblicità video a schermo intero inaspettate che lo interrompano.", "— Lo sviluppatore di Instava"],
     how: "Tre semplici passi",
     steps: ["Copia il link", "Incollalo in Instava", "Scegli e salva"],
@@ -92,7 +92,7 @@ window.INSTAVA_LANDING_LOCALES = {
   ko: {
     title: "Instava – Instagram 사진·동영상 저장",
     tag: "Instagram 사진, 동영상, 릴스를 원본 화질 그대로 저장하세요. 로그인은 필요 없습니다.",
-    intro: "공개 Instagram 게시물 URL을 붙여넣으면 사진, 동영상, 릴스를 원본 화질 그대로 저장할 수 있습니다. 캐러셀 게시물도 지원합니다.",
+    intro: "공개 Instagram 게시물 URL을 붙여넣으면 사진, 동영상, 릴스를 원본 화질 그대로 저장할 수 있습니다. 캐러셀에서 원하는 사진과 동영상을 골라 한 번에 저장하세요.",
     story: ["Instava를 만든 이유", "갑자기 시작되는 동영상 광고에 지쳤습니다.", "제가 사용해 본 여러 Instagram 저장 앱은 전체 화면 동영상 광고를 반복해서 보여 줬습니다. 사진 한 장만 저장하려는데도 앱을 열거나 다시 돌아오는 순간 소리와 함께 광고가 갑자기 시작되곤 했습니다.", "그래서 Instava는 URL 붙여넣기, 선택, 저장이라는 간단한 흐름을 예상치 못한 전체 화면 동영상 광고가 방해하지 않도록 만들었습니다.", "— Instava 개발자"],
     how: "사용법은 3단계",
     steps: ["게시물 링크 복사", "Instava에 붙여넣기", "선택하고 저장"],
@@ -107,7 +107,7 @@ window.INSTAVA_LANDING_LOCALES = {
   pt: {
     title: "Instava – Salve fotos e vídeos do Instagram",
     tag: "Salve fotos, vídeos e Reels do Instagram na qualidade original. Sem login.",
-    intro: "Cole a URL de uma publicação pública do Instagram e salve fotos, vídeos e Reels na qualidade original. Carrosséis também são suportados.",
+    intro: "Cole a URL de uma publicação pública do Instagram e salve fotos, vídeos e Reels na qualidade original. Em um carrossel, escolha as fotos e os vídeos que quiser e salve tudo junto.",
     story: ["Por que criei o Instava", "Cansei dos anúncios em vídeo inesperados.", "Muitos dos apps para salvar conteúdo do Instagram que testei exibiam anúncios em vídeo de tela cheia repetidamente. Às vezes eles começavam de repente e com som ao abrir o app ou voltar a ele, quando eu só queria salvar uma foto.", "Por isso criei o Instava para preservar um fluxo simples—colar a URL, escolher e salvar—sem anúncios em vídeo de tela cheia inesperados no caminho.", "— O desenvolvedor do Instava"],
     how: "Apenas 3 passos",
     steps: ["Copie o link", "Cole no Instava", "Escolha e salve"],
@@ -122,7 +122,7 @@ window.INSTAVA_LANDING_LOCALES = {
   th: {
     title: "Instava – บันทึกรูปและวิดีโอ Instagram",
     tag: "บันทึกรูป วิดีโอ และ Reels จาก Instagram ในคุณภาพต้นฉบับ ไม่ต้องล็อกอิน",
-    intro: "วาง URL โพสต์ Instagram สาธารณะ แล้วบันทึกรูป วิดีโอ และ Reels ในคุณภาพต้นฉบับ รองรับโพสต์แบบแครูเซลด้วย",
+    intro: "วาง URL โพสต์ Instagram สาธารณะ แล้วบันทึกรูป วิดีโอ และ Reels ในคุณภาพต้นฉบับ สำหรับโพสต์แบบแครูเซล เลือกรูปและวิดีโอที่ต้องการแล้วบันทึกพร้อมกันได้",
     story: ["เหตุผลที่สร้าง Instava", "เบื่อโฆษณาวิดีโอที่โผล่มากะทันหัน", "แอปบันทึก Instagram หลายตัวที่ผมลองใช้แสดงโฆษณาวิดีโอเต็มจอซ้ำแล้วซ้ำอีก บางครั้งโฆษณาเริ่มเล่นพร้อมเสียงทันทีที่เปิดหรือกลับเข้าแอป ทั้งที่ผมแค่อยากบันทึกรูปหนึ่งรูป", "Instava จึงถูกสร้างให้ขั้นตอนง่าย ๆ—วาง URL เลือก แล้วบันทึก—ไม่ถูกขัดจังหวะด้วยโฆษณาวิดีโอเต็มจอที่ไม่คาดคิด", "— ผู้พัฒนา Instava"],
     how: "ใช้งานง่ายแค่ 3 ขั้นตอน",
     steps: ["คัดลอกลิงก์โพสต์", "วางใน Instava", "เลือกแล้วบันทึก"],
@@ -137,7 +137,7 @@ window.INSTAVA_LANDING_LOCALES = {
   tr: {
     title: "Instava – Instagram fotoğraf ve videolarını kaydet",
     tag: "Instagram fotoğraflarını, videolarını ve Reels içeriklerini orijinal kalitede kaydet. Giriş gerekmez.",
-    intro: "Herkese açık bir Instagram gönderisinin URL’sini yapıştır; fotoğraf, video ve Reels içeriklerini orijinal kalitede kaydet. Carousel gönderileri de desteklenir.",
+    intro: "Herkese açık bir Instagram gönderisinin URL’sini yapıştır; fotoğraf, video ve Reels içeriklerini orijinal kalitede kaydet. Carousel gönderisinden istediğin fotoğraf ve videoları seçip birlikte kaydet.",
     story: ["Instava’yı neden geliştirdim", "Aniden başlayan video reklamlardan bıkmıştım.", "Denediğim birçok Instagram kaydetme uygulaması tekrar tekrar tam ekran video reklam gösteriyordu. Yalnızca bir fotoğraf kaydetmek isterken, uygulamayı açtığımda veya geri döndüğümde reklam bazen sesli olarak aniden başlıyordu.", "Bu yüzden Instava’yı basit akışı—URL’yi yapıştır, seç ve kaydet—beklenmedik tam ekran video reklamların kesmemesi için geliştirdim.", "— Instava geliştiricisi"],
     how: "Sadece 3 adım",
     steps: ["Gönderi bağlantısını kopyala", "Instava’ya yapıştır", "Seç ve kaydet"],
@@ -152,7 +152,7 @@ window.INSTAVA_LANDING_LOCALES = {
   vi: {
     title: "Instava – Lưu ảnh và video Instagram",
     tag: "Lưu ảnh, video và Reels Instagram với chất lượng gốc. Không cần đăng nhập.",
-    intro: "Dán URL bài viết Instagram công khai để lưu ảnh, video và Reels với chất lượng gốc. Bài viết nhiều ảnh cũng được hỗ trợ.",
+    intro: "Dán URL bài viết Instagram công khai để lưu ảnh, video và Reels với chất lượng gốc. Với bài viết dạng carousel, hãy chọn ảnh và video bạn muốn rồi lưu cùng lúc.",
     story: ["Vì sao tôi tạo Instava", "Tôi đã quá mệt mỏi với quảng cáo video bất ngờ.", "Nhiều ứng dụng lưu nội dung Instagram mà tôi thử liên tục hiển thị quảng cáo video toàn màn hình. Chúng đôi khi đột ngột phát cùng âm thanh khi mở hoặc quay lại ứng dụng, trong khi tôi chỉ muốn lưu một bức ảnh.", "Vì vậy, tôi tạo Instava để giữ trọn một quy trình đơn giản—dán URL, chọn và lưu—không bị quảng cáo video toàn màn hình bất ngờ làm gián đoạn.", "— Nhà phát triển Instava"],
     how: "Chỉ 3 bước đơn giản",
     steps: ["Sao chép liên kết", "Dán vào Instava", "Chọn và lưu"],
@@ -167,7 +167,7 @@ window.INSTAVA_LANDING_LOCALES = {
   zh: {
     title: "Instava – 儲存 Instagram 相片與影片",
     tag: "以原始畫質儲存 Instagram 相片、影片和 Reels。免登入。",
-    intro: "貼上公開 Instagram 貼文網址，即可以原始畫質儲存相片、影片和 Reels，也完整支援輪播貼文。",
+    intro: "貼上公開 Instagram 貼文網址，即可以原始畫質儲存相片、影片和 Reels。輪播貼文可選取想要的相片與影片，再一次儲存。",
     story: ["為什麼開發 Instava", "我受夠了突然播放的影片廣告。", "我試過的許多 Instagram 儲存 App，會一再顯示全螢幕影片廣告。明明只是想存一張相片，開啟 App 或切回 App 時，廣告卻可能突然連同聲音一起播放。", "因此，我做了 Instava，讓貼上網址、選取、儲存這個簡單流程，不再被意料之外的全螢幕影片廣告打斷。", "— Instava 開發者"],
     how: "三個步驟輕鬆上手",
     steps: ["複製貼文連結", "貼到 Instava", "選取並儲存"],
@@ -182,7 +182,7 @@ window.INSTAVA_LANDING_LOCALES = {
   ar: {
     title: "Instava – حفظ صور وفيديو Instagram",
     tag: "احفظ صور Instagram ومقاطع الفيديو وReels بجودتها الأصلية. بلا تسجيل دخول.",
-    intro: "الصق رابط منشور Instagram عام واحفظ الصور ومقاطع الفيديو وReels بجودتها الأصلية. يدعم Instava المنشورات متعددة الصور أيضًا.",
+    intro: "الصق رابط منشور Instagram عام واحفظ الصور ومقاطع الفيديو وReels بجودتها الأصلية. في المنشورات الدوّارة، اختر الصور ومقاطع الفيديو التي تريدها واحفظها معًا.",
     story: ["لماذا طوّرت Instava", "سئمت إعلانات الفيديو التي تبدأ فجأة.", "كانت تطبيقات كثيرة لحفظ محتوى Instagram جرّبتها تعرض إعلانات فيديو بملء الشاشة مرارًا. وأحيانًا كانت تبدأ فجأة مع الصوت عند فتح التطبيق أو العودة إليه، بينما لم أكن أريد سوى حفظ صورة.", "لذلك صممت Instava ليحافظ على مسار بسيط—الصق الرابط، اختر، واحفظ—من دون أن تقاطعه إعلانات فيديو مفاجئة بملء الشاشة.", "— مطوّر Instava"],
     how: "ثلاث خطوات بسيطة",
     steps: ["انسخ رابط المنشور", "الصقه في Instava", "اختر واحفظ"],
