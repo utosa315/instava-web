@@ -16,6 +16,14 @@
   }
 
   function detect() {
+    if (isLanding) {
+      var pathMatch = location.pathname.match(/^\/(ja|en|de|es|fr|hi|id|it|ko|pt|th|tr|vi|zh|ar)(?:\/|$)/);
+      if (pathMatch) {
+        try { localStorage.setItem("lang", pathMatch[1]); } catch (e) {}
+        return pathMatch[1];
+      }
+    }
+
     try {
       var query = normalize(new URLSearchParams(location.search).get("lang"));
       if (query) {
@@ -57,12 +65,12 @@
             '<div class="hero-device hero-device-saved">' + image("saved", copy.device[0], false) + '</div>' +
             '<div class="hero-device hero-device-select">' + image("select", copy.steps[2], false) + '</div>' +
           '</div><figcaption class="hero-flow"><ol><li><span>1</span><strong>' + copy.steps[0] + '</strong></li><li><span>2</span><strong>' + copy.steps[1] + '</strong></li><li><span>3</span><strong>' + copy.steps[2] + '</strong></li></ol></figcaption><img class="spot-mascot mascot-link" src="/assets/mascot-link.webp" alt="" width="360" height="360" aria-hidden="true"></figure>' +
-          '<div class="hero-proof"><p class="proof-intro">Instava</p><p><strong>' + copy.quality[0] + '</strong><span>' + copy.quality[1] + '</span></p><p><strong>' + copy.login[0] + '</strong><span>' + copy.login[1] + '</span></p><p><strong>' + copy.device[0] + '</strong><span>' + copy.device[1] + '</span></p></div>' +
+          '<div class="hero-proof"><p class="proof-intro">Instava</p><p><strong>' + copy.ads[0] + '</strong><span>' + copy.ads[1] + '</span></p><p><strong>' + copy.login[0] + '</strong><span>' + copy.login[1] + '</span></p><p><strong>' + copy.quality[0] + '</strong><span>' + copy.quality[1] + '</span></p></div>' +
         '</section>' +
         '<section class="formats section-shell"><div class="section-heading"><p class="section-kicker">Why Instava</p><h2>' + copy.quality[0] + '</h2></div><div class="format-grid">' +
-          '<article><span class="format-tag">QUALITY</span><h3>' + copy.quality[0] + '</h3><p>' + copy.quality[1] + '</p></article>' +
+          '<article><span class="format-tag">NO SURPRISE ADS</span><h3>' + copy.ads[0] + '</h3><p>' + copy.ads[1] + '</p></article>' +
           '<article><span class="format-tag">NO LOGIN</span><h3>' + copy.login[0] + '</h3><p>' + copy.login[1] + '</p></article>' +
-          '<article><span class="format-tag">ON DEVICE</span><h3>' + copy.device[0] + '</h3><p>' + copy.device[1] + '</p></article>' +
+          '<article><span class="format-tag">QUALITY</span><h3>' + copy.quality[0] + '</h3><p>' + copy.quality[1] + '</p></article>' +
         '</div><aside class="format-note"><p class="format-question"><span aria-hidden="true">!</span>' + copy.note[0] + '</p><div class="format-answer"><p>' + copy.note[1] + '</p></div></aside></section>' +
         '<section class="how section-shell" id="how-' + lang + '"><div class="section-heading"><p class="section-kicker">How it works</p><h2>' + copy.how + '</h2></div><div class="steps-grid">' +
           '<article><div class="phone-frame">' + image("home", copy.steps[0], true) + '</div><span>1</span><h3>' + copy.steps[0] + '</h3></article>' +
@@ -85,14 +93,19 @@
     for (var panelIndex = 0; panelIndex < panels.length; panelIndex++) {
       panels[panelIndex].style.display = panels[panelIndex].lang === lang ? "block" : "none";
     }
-    var headerLinks = document.querySelectorAll(".header-link[lang]");
+    var headerLinks = document.querySelectorAll(".header-link[data-header-lang]");
     for (var linkIndex = 0; linkIndex < headerLinks.length; linkIndex++) {
-      var showLink = headerLinks[linkIndex].lang === lang || (lang !== "ja" && lang !== "en" && headerLinks[linkIndex].lang === "en");
+      var baseLang = headerLinks[linkIndex].getAttribute("data-header-lang");
+      var showLink = baseLang === lang || (lang !== "ja" && lang !== "en" && baseLang === "en");
       headerLinks[linkIndex].style.display = showLink ? "block" : "none";
       if (showLink && lang !== "ja" && lang !== "en") {
+        headerLinks[linkIndex].lang = lang;
         headerLinks[linkIndex].href = "#how-" + lang;
         headerLinks[linkIndex].textContent = landingLocales[lang].how;
-      } else if (headerLinks[linkIndex].lang === "en") {
+      } else {
+        headerLinks[linkIndex].lang = baseLang;
+      }
+      if (baseLang === "en" && (lang === "ja" || lang === "en")) {
         headerLinks[linkIndex].href = "#how-en";
         headerLinks[linkIndex].textContent = "How it works";
       }
@@ -144,6 +157,10 @@
     var next = normalize(event.target.value);
     if (!next) return;
     try { localStorage.setItem("lang", next); } catch (e) {}
+    if (isLanding) {
+      location.assign("/" + next + "/");
+      return;
+    }
     apply(next);
   });
 })();

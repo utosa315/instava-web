@@ -5,10 +5,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "Füge einfach die URL eines öffentlichen Instagram-Beitrags ein und speichere Fotos, Videos und Reels in Originalqualität. Auch Karussell-Beiträge werden unterstützt.",
     how: "In 3 Schritten gespeichert",
     steps: ["Beitragslink kopieren", "In Instava einfügen", "Auswählen und speichern"],
+    ads: ["Keine überraschenden Vollbildvideos", "Beim Öffnen oder Zurückkehren startet kein Vollbildvideo. Speichere täglich eine URL ohne Vollbildwerbung; für die zweite kannst du freiwillig eine Rewarded Ad ansehen."],
     quality: ["Originalqualität, ohne Kompromisse", "Kein Re-Encoding, keine Kompression. Fotos und Videos werden genau so gespeichert, wie sie gepostet wurden."],
     login: ["Kein Login", "Du brauchst kein Konto. Instava sammelt keine Instagram-Anmeldedaten; alles bleibt auf deinem Gerät."],
     device: ["Deine Fotos bleiben bei dir", "Gespeicherte Medien kannst du direkt in der App ansehen, teilen und löschen."],
-    free: ["Jeden Tag gratis", "Installiere Instava kostenlos auf deinem Android-Gerät."],
+    free: ["Jeden Tag gratis", "Eine URL täglich ohne Vollbildwerbung. Mit einer freiwilligen Rewarded Ad kannst du eine zweite speichern."],
     note: ["Verantwortungsvoll verwenden", "Die Rechte an gespeicherten Inhalten liegen bei den ursprünglichen Urhebern. Bitte nur für den persönlichen Gebrauch verwenden. Private Beiträge werden nicht unterstützt."]
   },
   es: {
@@ -17,10 +18,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "Pega la URL de una publicación pública de Instagram y guarda fotos, videos y Reels con la calidad original. También se admiten los carruseles.",
     how: "Tres pasos y listo",
     steps: ["Copia el enlace", "Pégalo en Instava", "Elige y guarda"],
+    ads: ["Sin videos sorpresa a pantalla completa", "No aparece un video a pantalla completa al abrir la app ni al volver. Guarda una URL al día sin ese anuncio; para la segunda, puedes elegir ver un anuncio con recompensa."],
     quality: ["Calidad original", "Sin recodificación ni compresión. Las fotos y los videos se guardan tal como se publicaron."],
     login: ["Sin iniciar sesión", "No necesitas ninguna cuenta. Instava no recopila credenciales de Instagram; todo permanece en tu dispositivo."],
     device: ["Tus fotos se quedan contigo", "Explora, comparte y elimina tus elementos guardados directamente en la app."],
-    free: ["Gratis todos los días", "Instala Instava gratis en tu dispositivo Android."],
+    free: ["Gratis todos los días", "Una URL al día sin anuncio a pantalla completa. Elige un anuncio con recompensa para guardar una segunda."],
     note: ["Uso responsable", "Los derechos del contenido guardado pertenecen a sus autores. Úsalo solo para fines personales. No se admiten publicaciones privadas."]
   },
   fr: {
@@ -29,10 +31,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "Collez l’URL d’une publication Instagram publique et enregistrez photos, vidéos et Reels en qualité d’origine. Les carrousels sont également pris en charge.",
     how: "3 étapes, c’est tout",
     steps: ["Copiez le lien", "Collez-le dans Instava", "Choisissez et enregistrez"],
+    ads: ["Aucune vidéo plein écran surprise", "Aucune vidéo plein écran ne démarre à l’ouverture ou au retour dans l’app. Enregistrez une URL par jour sans ce type de publicité ; choisissez une publicité récompensée pour la seconde."],
     quality: ["Qualité d’origine préservée", "Aucun réencodage, aucune compression. Les photos et vidéos sont enregistrées exactement comme publiées."],
     login: ["Sans compte", "Aucun compte requis. Instava ne collecte pas vos identifiants Instagram ; tout reste sur votre appareil."],
     device: ["Vos photos restent avec vous", "Parcourez, partagez et supprimez vos médias enregistrés directement dans l’app."],
-    free: ["Gratuit chaque jour", "Installez gratuitement Instava sur votre appareil Android."],
+    free: ["Gratuit chaque jour", "Une URL par jour sans publicité plein écran. Choisissez une publicité récompensée pour en enregistrer une seconde."],
     note: ["Utilisation responsable", "Les droits sur les contenus enregistrés appartiennent à leurs auteurs. Réservez-les à un usage personnel. Les publications privées ne sont pas prises en charge."]
   },
   hi: {
@@ -41,10 +44,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "किसी सार्वजनिक Instagram पोस्ट का URL पेस्ट करें और फ़ोटो, वीडियो व Reels असली क्वालिटी में सेव करें। कैरोसेल पोस्ट भी सपोर्टेड हैं।",
     how: "बस 3 आसान स्टेप",
     steps: ["पोस्ट का लिंक कॉपी करें", "Instava में पेस्ट करें", "चुनें और सेव करें"],
+    ads: ["अचानक फुल-स्क्रीन वीडियो नहीं", "ऐप खोलने या वापस आने पर फुल-स्क्रीन वीडियो शुरू नहीं होता। रोज़ एक URL बिना फुल-स्क्रीन विज्ञापन सेव करें; दूसरे के लिए आप रिवॉर्ड विज्ञापन देखना चुन सकते हैं।"],
     quality: ["असली क्वालिटी, जस की तस", "कोई री-एन्कोडिंग या कम्प्रेशन नहीं। फ़ोटो और वीडियो ठीक वैसे ही सेव होते हैं जैसे पोस्ट किए गए थे।"],
     login: ["लॉगिन की ज़रूरत नहीं", "किसी अकाउंट की ज़रूरत नहीं। Instava आपकी Instagram लॉगिन जानकारी नहीं लेता; सब कुछ आपके डिवाइस पर रहता है।"],
     device: ["आपकी फ़ोटो आपके पास", "सेव किए गए मीडिया को ऐप में ही देखें, शेयर करें या हटाएँ।"],
-    free: ["हर दिन मुफ़्त", "अपने Android डिवाइस पर Instava मुफ़्त इंस्टॉल करें।"],
+    free: ["हर दिन मुफ़्त", "रोज़ एक URL बिना फुल-स्क्रीन विज्ञापन सेव करें। दूसरा सेव करने के लिए रिवॉर्ड विज्ञापन चुनें।"],
     note: ["ज़िम्मेदारी से उपयोग करें", "सेव किए गए कॉन्टेंट के अधिकार मूल पोस्ट करने वालों के हैं। केवल निजी उपयोग करें। प्राइवेट पोस्ट सपोर्टेड नहीं हैं।"]
   },
   id: {
@@ -53,10 +57,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "Tempel URL postingan Instagram publik dan simpan foto, video, serta Reels dalam kualitas asli. Postingan carousel juga didukung.",
     how: "Hanya 3 langkah",
     steps: ["Salin tautan", "Tempel di Instava", "Pilih dan simpan"],
+    ads: ["Tanpa video layar penuh mendadak", "Tidak ada video layar penuh saat membuka atau kembali ke aplikasi. Simpan satu URL per hari tanpa iklan tersebut; untuk URL kedua, Anda dapat memilih menonton iklan berhadiah."],
     quality: ["Kualitas asli", "Tanpa re-encoding atau kompresi. Foto dan video disimpan persis seperti saat diposting."],
     login: ["Tanpa login", "Tidak perlu akun. Instava tidak mengumpulkan info login Instagram; semuanya tetap di perangkat Anda."],
     device: ["Foto Anda tetap bersama Anda", "Lihat, bagikan, dan hapus media tersimpan langsung di dalam aplikasi."],
-    free: ["Gratis setiap hari", "Instal Instava gratis di perangkat Android Anda."],
+    free: ["Gratis setiap hari", "Satu URL per hari tanpa iklan layar penuh. Pilih iklan berhadiah untuk menyimpan URL kedua."],
     note: ["Gunakan dengan bertanggung jawab", "Hak konten tetap milik pengunggah aslinya. Gunakan hanya untuk keperluan pribadi. Postingan privat tidak didukung."]
   },
   it: {
@@ -65,10 +70,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "Incolla l’URL di un post Instagram pubblico e salva foto, video e Reel in qualità originale. Sono supportati anche i post carosello.",
     how: "Tre semplici passi",
     steps: ["Copia il link", "Incollalo in Instava", "Scegli e salva"],
+    ads: ["Nessun video a schermo intero a sorpresa", "Nessun video a schermo intero parte quando apri o riprendi l’app. Salva un URL al giorno senza quell’annuncio; per il secondo puoi scegliere un annuncio con premio."],
     quality: ["Qualità originale", "Nessuna ricodifica o compressione. Foto e video vengono salvati esattamente come pubblicati."],
     login: ["Niente login", "Non serve alcun account. Instava non raccoglie credenziali Instagram; tutto resta sul tuo dispositivo."],
     device: ["Le tue foto restano con te", "Sfoglia, condividi ed elimina i media salvati direttamente nell’app."],
-    free: ["Gratis ogni giorno", "Installa Instava gratuitamente sul tuo dispositivo Android."],
+    free: ["Gratis ogni giorno", "Un URL al giorno senza annunci a schermo intero. Scegli un annuncio con premio per salvarne un secondo."],
     note: ["Uso responsabile", "I diritti sui contenuti salvati appartengono agli autori. Usali solo per scopi personali. I post privati non sono supportati."]
   },
   ko: {
@@ -77,10 +83,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "공개 Instagram 게시물 URL을 붙여넣으면 사진, 동영상, 릴스를 원본 화질 그대로 저장할 수 있습니다. 캐러셀 게시물도 지원합니다.",
     how: "사용법은 3단계",
     steps: ["게시물 링크 복사", "Instava에 붙여넣기", "선택하고 저장"],
+    ads: ["갑자기 뜨는 전체 화면 동영상 없음", "앱을 열거나 돌아왔을 때 전체 화면 동영상이 시작되지 않습니다. 하루 URL 1개는 전체 화면 광고 없이 저장하고, 두 번째는 선택해서 리워드 광고를 볼 수 있습니다."],
     quality: ["원본 화질 그대로", "재인코딩이나 압축 없이 게시된 화질 그대로 사진과 동영상을 저장합니다."],
     login: ["로그인 불필요", "계정이 필요 없습니다. Instava는 Instagram 로그인 정보를 수집하지 않으며 모든 처리는 기기 안에서 이루어집니다."],
     device: ["사진은 내 기기에", "앱에서 저장된 미디어를 확인하고 공유하거나 삭제할 수 있습니다."],
-    free: ["매일 무료로 사용", "Android 기기에 Instava를 무료로 설치하세요."],
+    free: ["매일 무료로 사용", "하루 URL 1개는 전체 화면 광고 없이 저장합니다. 리워드 광고를 선택하면 두 번째 URL도 저장할 수 있습니다."],
     note: ["책임감 있게 이용하세요", "저장한 콘텐츠의 권리는 원 게시자에게 있습니다. 개인적인 용도로만 이용해 주세요. 비공개 게시물은 지원하지 않습니다."]
   },
   pt: {
@@ -89,10 +96,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "Cole a URL de uma publicação pública do Instagram e salve fotos, vídeos e Reels na qualidade original. Carrosséis também são suportados.",
     how: "Apenas 3 passos",
     steps: ["Copie o link", "Cole no Instava", "Escolha e salve"],
+    ads: ["Sem vídeos em tela cheia de surpresa", "Nenhum vídeo em tela cheia começa ao abrir ou voltar ao app. Salve uma URL por dia sem esse anúncio; para a segunda, você pode escolher assistir a um anúncio premiado."],
     quality: ["Qualidade original", "Sem recodificação nem compressão. Fotos e vídeos são salvos exatamente como foram publicados."],
     login: ["Sem login", "Você não precisa de conta. O Instava não coleta credenciais do Instagram; tudo fica no seu dispositivo."],
     device: ["Suas fotos ficam com você", "Veja, compartilhe e exclua os itens salvos direto no app."],
-    free: ["Grátis todos os dias", "Instale o Instava gratuitamente no seu dispositivo Android."],
+    free: ["Grátis todos os dias", "Uma URL por dia sem anúncio em tela cheia. Escolha um anúncio premiado para salvar a segunda."],
     note: ["Use com responsabilidade", "Os direitos do conteúdo salvo pertencem a quem publicou. Use apenas para fins pessoais. Publicações privadas não são suportadas."]
   },
   th: {
@@ -101,10 +109,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "วาง URL โพสต์ Instagram สาธารณะ แล้วบันทึกรูป วิดีโอ และ Reels ในคุณภาพต้นฉบับ รองรับโพสต์แบบแครูเซลด้วย",
     how: "ใช้งานง่ายแค่ 3 ขั้นตอน",
     steps: ["คัดลอกลิงก์โพสต์", "วางใน Instava", "เลือกแล้วบันทึก"],
+    ads: ["ไม่มีวิดีโอเต็มจอที่โผล่มาโดยไม่คาดคิด", "ไม่มีวิดีโอเต็มจอเริ่มเล่นตอนเปิดหรือกลับเข้าแอป บันทึกได้วันละ 1 URL โดยไม่มีโฆษณาเต็มจอ และเลือกดูโฆษณาแบบรับรางวัลเพื่อบันทึก URL ที่สองได้"],
     quality: ["คุณภาพต้นฉบับ", "ไม่มีการเข้ารหัสซ้ำหรือบีบอัด รูปและวิดีโอถูกบันทึกเหมือนตอนโพสต์ทุกประการ"],
     login: ["ไม่ต้องล็อกอิน", "ไม่ต้องใช้บัญชี Instava ไม่เก็บข้อมูลเข้าสู่ระบบ Instagram และทุกอย่างอยู่บนอุปกรณ์ของคุณ"],
     device: ["รูปของคุณอยู่กับคุณ", "ดู แชร์ หรือลบสื่อที่บันทึกไว้ได้จากในแอป"],
-    free: ["ใช้ฟรีได้ทุกวัน", "ติดตั้ง Instava ฟรีบนอุปกรณ์ Android ของคุณ"],
+    free: ["ใช้ฟรีได้ทุกวัน", "บันทึกวันละ 1 URL โดยไม่มีโฆษณาเต็มจอ เลือกดูโฆษณาแบบรับรางวัลเพื่อบันทึก URL ที่สอง"],
     note: ["ใช้งานอย่างรับผิดชอบ", "สิทธิ์ในคอนเทนต์เป็นของผู้โพสต์ต้นฉบับ โปรดใช้เพื่อวัตถุประสงค์ส่วนตัวเท่านั้น ไม่รองรับโพสต์ส่วนตัว"]
   },
   tr: {
@@ -113,10 +122,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "Herkese açık bir Instagram gönderisinin URL’sini yapıştır; fotoğraf, video ve Reels içeriklerini orijinal kalitede kaydet. Carousel gönderileri de desteklenir.",
     how: "Sadece 3 adım",
     steps: ["Gönderi bağlantısını kopyala", "Instava’ya yapıştır", "Seç ve kaydet"],
+    ads: ["Sürpriz tam ekran video yok", "Uygulamayı açtığında veya geri döndüğünde tam ekran video başlamaz. Günde bir URL’yi böyle bir reklam olmadan kaydet; ikincisi için ödüllü reklam izlemeyi seçebilirsin."],
     quality: ["Orijinal kalite", "Yeniden kodlama veya sıkıştırma yok. Fotoğraf ve videolar paylaşıldığı haliyle kaydedilir."],
     login: ["Giriş gerekmez", "Hesaba gerek yok. Instava Instagram giriş bilgilerini toplamaz; her şey cihazında kalır."],
     device: ["Fotoğrafların sende kalır", "Kaydettiklerini uygulama içinden görüntüle, paylaş veya sil."],
-    free: ["Her gün ücretsiz", "Instava’yı Android cihazına ücretsiz yükle."],
+    free: ["Her gün ücretsiz", "Günde bir URL’yi tam ekran reklam olmadan kaydet. İkinci URL için ödüllü reklamı seç."],
     note: ["Sorumlu kullan", "Kaydedilen içeriklerin hakları orijinal paylaşan kişilere aittir. Yalnızca kişisel kullanım içindir. Gizli gönderiler desteklenmez."]
   },
   vi: {
@@ -125,10 +135,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "Dán URL bài viết Instagram công khai để lưu ảnh, video và Reels với chất lượng gốc. Bài viết nhiều ảnh cũng được hỗ trợ.",
     how: "Chỉ 3 bước đơn giản",
     steps: ["Sao chép liên kết", "Dán vào Instava", "Chọn và lưu"],
+    ads: ["Không có video toàn màn hình bất ngờ", "Không có video toàn màn hình khi mở hoặc quay lại ứng dụng. Lưu một URL mỗi ngày mà không có quảng cáo đó; với URL thứ hai, bạn có thể chọn xem quảng cáo có thưởng."],
     quality: ["Giữ nguyên chất lượng gốc", "Không nén hay mã hóa lại. Ảnh và video được lưu đúng như khi đăng."],
     login: ["Không đăng nhập", "Không cần tài khoản. Instava không thu thập thông tin đăng nhập Instagram; mọi thứ ở trên thiết bị của bạn."],
     device: ["Ảnh luôn ở lại với bạn", "Xem, chia sẻ và xóa các mục đã lưu ngay trong ứng dụng."],
-    free: ["Miễn phí mỗi ngày", "Cài đặt Instava miễn phí trên thiết bị Android của bạn."],
+    free: ["Miễn phí mỗi ngày", "Một URL mỗi ngày không có quảng cáo toàn màn hình. Chọn quảng cáo có thưởng để lưu URL thứ hai."],
     note: ["Sử dụng có trách nhiệm", "Bản quyền nội dung thuộc về người đăng gốc. Chỉ sử dụng cho mục đích cá nhân. Không hỗ trợ bài viết riêng tư."]
   },
   zh: {
@@ -137,10 +148,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "貼上公開 Instagram 貼文網址，即可以原始畫質儲存相片、影片和 Reels，也完整支援輪播貼文。",
     how: "三個步驟輕鬆上手",
     steps: ["複製貼文連結", "貼到 Instava", "選取並儲存"],
+    ads: ["不會突然跳出全螢幕影片", "開啟 App 或切回 App 時，不會突然播放全螢幕影片。每天可儲存 1 個網址且無全螢幕廣告；第 2 個網址可自行選擇觀看獎勵廣告。"],
     quality: ["以原始畫質儲存", "不重新編碼、不壓縮，相片和影片都以貼文原本的畫質儲存。"],
     login: ["免登入", "不需要任何帳號。Instava 不會收集 Instagram 登入資訊，所有處理都在裝置內完成。"],
     device: ["相片留在你的裝置上", "可直接在 App 內瀏覽、分享或刪除已儲存的媒體。"],
-    free: ["每天免費使用", "在 Android 裝置上免費安裝 Instava。"],
+    free: ["每天免費使用", "每天 1 個網址無全螢幕廣告；自行選擇觀看獎勵廣告後，可儲存第 2 個網址。"],
     note: ["負責任地使用", "儲存內容的權利屬於原發文者，請限於個人使用。Instava 不支援私人貼文。"]
   },
   ar: {
@@ -149,10 +161,11 @@ window.INSTAVA_LANDING_LOCALES = {
     intro: "الصق رابط منشور Instagram عام واحفظ الصور ومقاطع الفيديو وReels بجودتها الأصلية. يدعم Instava المنشورات متعددة الصور أيضًا.",
     how: "ثلاث خطوات بسيطة",
     steps: ["انسخ رابط المنشور", "الصقه في Instava", "اختر واحفظ"],
+    ads: ["لا فيديو بملء الشاشة على نحو مفاجئ", "لا يبدأ فيديو بملء الشاشة عند فتح التطبيق أو العودة إليه. احفظ رابطًا واحدًا يوميًا بلا إعلان بملء الشاشة، ويمكنك اختيار مشاهدة إعلان بمكافأة لحفظ الرابط الثاني."],
     quality: ["الجودة الأصلية كما هي", "لا إعادة ترميز ولا ضغط. تُحفظ الصور ومقاطع الفيديو تمامًا كما نُشرت."],
     login: ["بلا تسجيل دخول", "لا حاجة إلى حساب. لا يجمع Instava بيانات دخول Instagram؛ كل شيء يبقى على جهازك."],
     device: ["صورك تبقى معك", "تصفّح المحفوظات وشاركها واحذفها من داخل التطبيق مباشرة."],
-    free: ["مجاني كل يوم", "ثبّت Instava مجانًا على جهاز Android."],
+    free: ["مجاني كل يوم", "احفظ رابطًا واحدًا يوميًا بلا إعلان بملء الشاشة. اختر إعلانًا بمكافأة لحفظ الرابط الثاني."],
     note: ["استخدمه بمسؤولية", "حقوق المحتوى المحفوظ تعود إلى أصحابه الأصليين. استخدمه للأغراض الشخصية فقط. المنشورات الخاصة غير مدعومة."]
   }
 };
