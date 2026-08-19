@@ -59,28 +59,34 @@
     mount.innerHTML =
       '<div class="i18n" lang="' + lang + '">' +
         '<section class="hero">' +
-          '<div class="hero-copy"><p class="eyebrow">Instava / Android</p><h1>' + copy.tag + '</h1><p class="hero-lead">' + copy.intro + '</p><div class="hero-action"><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play" width="200" height="77"></a></div></div>' +
+          '<div class="hero-copy"><p class="eyebrow">' + copy.eyebrow + '</p><h1>' + copy.tag + '</h1><p class="hero-lead">' + copy.intro + '</p><div class="hero-action"><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play" width="200" height="77"></a></div></div>' +
           '<figure class="hero-render"><div class="hero-device-stage" aria-label="Instava">' +
             '<div class="hero-device hero-device-home">' + image("home", copy.steps[1], false) + '</div>' +
             '<div class="hero-device hero-device-saved">' + image("saved", copy.device[0], false) + '</div>' +
             '<div class="hero-device hero-device-select">' + image("select", copy.steps[2], false) + '</div>' +
           '</div><figcaption class="hero-flow"><ol><li><span>1</span><strong>' + copy.steps[0] + '</strong></li><li><span>2</span><strong>' + copy.steps[1] + '</strong></li><li><span>3</span><strong>' + copy.steps[2] + '</strong></li></ol></figcaption><img class="spot-mascot mascot-link" src="/assets/mascot-link.webp" alt="" width="360" height="360" aria-hidden="true"></figure>' +
-          '<div class="hero-proof"><p class="proof-intro">Instava</p><p><strong>' + copy.ads[0] + '</strong><span>' + copy.ads[1] + '</span></p><p><strong>' + copy.login[0] + '</strong><span>' + copy.login[1] + '</span></p><p><strong>' + copy.quality[0] + '</strong><span>' + copy.quality[1] + '</span></p></div>' +
+          '<div class="hero-proof"><p class="proof-intro">Instava</p><p><strong>' + copy.save.proof[0] + '</strong><span>' + copy.save.proof[1] + '</span></p><p><strong>' + copy.ads[0] + '</strong><span>' + copy.ads[1] + '</span></p><p><strong>' + copy.quick[0] + '</strong><span>' + copy.quick[1] + '</span></p></div>' +
         '</section>' +
-        '<section class="manifesto section-shell" aria-labelledby="story-' + lang + '"><img class="spot-mascot mascot-quiet" src="/assets/mascot-quiet.webp" alt="" width="360" height="360" loading="lazy" aria-hidden="true"><div><p class="section-kicker">' + copy.story[0] + '</p><h2 id="story-' + lang + '">' + copy.story[1] + '</h2></div><div class="manifesto-copy"><p>' + copy.story[2] + '</p><p>' + copy.story[3] + '</p><p class="founder-sign">' + copy.story[4] + '</p></div></section>' +
-        '<section class="formats section-shell"><div class="section-heading"><p class="section-kicker">Why Instava</p><h2>' + copy.quality[0] + '</h2></div><div class="format-grid">' +
-          '<article><span class="format-tag">NO SURPRISE ADS</span><h3>' + copy.ads[0] + '</h3><p>' + copy.ads[1] + '</p></article>' +
-          '<article><span class="format-tag">NO LOGIN</span><h3>' + copy.login[0] + '</h3><p>' + copy.login[1] + '</p></article>' +
-          '<article><span class="format-tag">QUALITY</span><h3>' + copy.quality[0] + '</h3><p>' + copy.quality[1] + '</p></article>' +
+        '<section class="manifesto section-shell" aria-labelledby="story-' + lang + '"><img class="spot-mascot mascot-quiet" src="/assets/mascot-quiet.webp" alt="" width="360" height="360" loading="lazy" aria-hidden="true"><div><p class="section-kicker">' + copy.story[0] + '</p><h2 id="story-' + lang + '">' + copy.story[1] + '</h2></div><div class="manifesto-copy"><p>' + copy.story[2] + '</p><p>' + copy.story[3] + '</p><p>' + copy.intro + '</p><p class="founder-sign">' + copy.story[4] + '</p></div></section>' +
+        '<section class="formats section-shell" aria-labelledby="formats-' + lang + '"><div class="section-heading"><p class="section-kicker">What you can save</p><h2 id="formats-' + lang + '">' + copy.save.heading + '</h2></div><div class="format-grid">' +
+          '<article><span class="format-tag">PHOTO / VIDEO</span><h3>' + copy.save.photo[0] + '</h3><p>' + copy.save.photo[1] + '</p></article>' +
+          '<article><span class="format-tag">REELS</span><h3>' + copy.save.reels[0] + '</h3><p>' + copy.save.reels[1] + '</p></article>' +
+          '<article><span class="format-tag">MULTI-PHOTO</span><h3>' + copy.save.multi[0] + '</h3><p>' + copy.save.multi[1] + '</p></article>' +
         '</div><aside class="format-note"><p class="format-question"><span aria-hidden="true">Q</span>' + copy.availability[0] + '</p><div class="format-answer"><p>' + copy.availability[1] + '</p></div></aside></section>' +
+        '<section class="principles section-shell" aria-labelledby="principles-' + lang + '"><div class="section-heading"><p class="section-kicker">Three things</p><h2 id="principles-' + lang + '">' + copy.principlesTitle + '</h2></div><div class="principle-list">' +
+          '<article><span>01</span><svg aria-hidden="true"><use href="#quiet"></use></svg><div><h3>' + copy.ads[0] + '</h3><p>' + copy.ads[1] + '</p></div></article>' +
+          '<article><span>02</span><svg aria-hidden="true"><use href="#login"></use></svg><div><h3>' + copy.login[0] + '</h3><p>' + copy.login[1] + '</p></div></article>' +
+          '<article><span>03</span><svg aria-hidden="true"><use href="#quality"></use></svg><div><h3>' + copy.quality[0] + '</h3><p>' + copy.quality[1] + '</p></div></article>' +
+        '</div></section>' +
+        '<section class="self-review section-shell" aria-labelledby="review-' + lang + '"><img class="spot-mascot mascot-proud" src="/assets/mascot-proud.webp" alt="" width="360" height="360" loading="lazy" aria-hidden="true"><p class="review-label">HONEST NOTE</p><p class="section-kicker">' + copy.review[0] + '</p><div class="self-review-grid"><div class="self-review-title"><h2 id="review-' + lang + '">' + copy.review[1] + '</h2><p class="review-margin-note">' + copy.review[2] + '</p></div><blockquote><p class="review-lead">' + copy.review[3] + '</p><p>' + copy.review[4] + '</p><p>' + copy.review[5] + '</p><footer>' + copy.review[6] + '</footer></blockquote></div></section>' +
         '<section class="how section-shell" id="how-' + lang + '"><div class="section-heading"><p class="section-kicker">How it works</p><h2>' + copy.how + '</h2></div><div class="steps-grid">' +
           '<article><div class="phone-frame">' + image("home", copy.steps[0], true) + '</div><span>1</span><h3>' + copy.steps[0] + '</h3></article>' +
           '<article><div class="phone-frame">' + image("select", copy.steps[1], true) + '</div><span>2</span><h3>' + copy.steps[1] + '</h3></article>' +
           '<article><div class="phone-frame">' + image("saved", copy.steps[2], true) + '</div><span>3</span><h3>' + copy.steps[2] + '</h3></article>' +
         '</div></section>' +
-        '<section class="trust section-shell"><div><p class="section-kicker">Privacy</p><h2>' + copy.login[0] + '</h2><p>' + copy.login[1] + '</p><a href="/privacy/?lang=en">Privacy Policy →</a></div><svg aria-hidden="true"><use href="#shield"></use></svg></section>' +
+        '<section class="trust section-shell"><div><p class="section-kicker">Privacy, plainly</p><h2>' + copy.privacy[0] + '</h2><p>' + copy.privacy[1] + '</p><a href="/privacy/?lang=en">' + copy.privacy[2] + '</a></div><svg aria-hidden="true"><use href="#shield"></use></svg></section>' +
         '<section class="release section-shell"><img class="release-icon" src="/favicon.svg" alt="Instava" width="76" height="76"><div><p class="section-kicker">Google Play</p><h2>' + copy.free[0] + '</h2><p>' + copy.free[1] + '</p><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play" width="200" height="77" loading="lazy"></a></div><img class="spot-mascot mascot-wave" src="/assets/mascot-wave.webp" alt="" width="360" height="360" loading="lazy" aria-hidden="true"></section>' +
-        '<aside class="usage-note section-shell"><p><strong>' + copy.note[0] + '</strong> ' + copy.note[1] + '</p></aside>' +
+        '<aside class="usage-note section-shell"><p><strong>' + copy.note[0] + '</strong> ' + copy.note[1] + ' ' + copy.unofficial + '</p></aside>' +
       '</div>';
   }
 
