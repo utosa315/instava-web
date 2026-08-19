@@ -72,7 +72,7 @@
           '<article><span class="format-tag">NO SURPRISE ADS</span><h3>' + copy.ads[0] + '</h3><p>' + copy.ads[1] + '</p></article>' +
           '<article><span class="format-tag">NO LOGIN</span><h3>' + copy.login[0] + '</h3><p>' + copy.login[1] + '</p></article>' +
           '<article><span class="format-tag">QUALITY</span><h3>' + copy.quality[0] + '</h3><p>' + copy.quality[1] + '</p></article>' +
-        '</div><aside class="format-note"><p class="format-question"><span aria-hidden="true">!</span>' + copy.note[0] + '</p><div class="format-answer"><p>' + copy.note[1] + '</p></div></aside></section>' +
+        '</div><aside class="format-note"><p class="format-question"><span aria-hidden="true">Q</span>' + copy.availability[0] + '</p><div class="format-answer"><p>' + copy.availability[1] + '</p></div></aside></section>' +
         '<section class="how section-shell" id="how-' + lang + '"><div class="section-heading"><p class="section-kicker">How it works</p><h2>' + copy.how + '</h2></div><div class="steps-grid">' +
           '<article><div class="phone-frame">' + image("home", copy.steps[0], true) + '</div><span>1</span><h3>' + copy.steps[0] + '</h3></article>' +
           '<article><div class="phone-frame">' + image("select", copy.steps[1], true) + '</div><span>2</span><h3>' + copy.steps[1] + '</h3></article>' +

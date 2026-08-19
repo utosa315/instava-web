@@ -11,6 +11,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["Kein Login", "Du brauchst kein Konto. Instava sammelt keine Instagram-Anmeldedaten; alles bleibt auf deinem Gerät."],
     device: ["Deine Fotos bleiben bei dir", "Gespeicherte Medien kannst du direkt in der App ansehen, teilen und löschen."],
     free: ["Kostenlos verfügbar", "Installiere Instava kostenlos auf deinem Android-Gerät."],
+    availability: ["Was ist mit Stories und privaten Beiträgen?", "Derzeit unterstützt Instava öffentliche Beiträge und Reels ohne Anmeldung. Stories und private Beiträge werden noch nicht unterstützt. Eine zukünftige Unterstützung prüfen wir anhand der Nachfrage und der Verfügbarkeit offizieller Instagram-APIs."],
     note: ["Verantwortungsvoll verwenden", "Die Rechte an gespeicherten Inhalten liegen bei den ursprünglichen Urhebern. Bitte nur für den persönlichen Gebrauch verwenden. Private Beiträge werden nicht unterstützt."]
   },
   es: {
@@ -25,6 +26,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["Sin iniciar sesión", "No necesitas ninguna cuenta. Instava no recopila credenciales de Instagram; todo permanece en tu dispositivo."],
     device: ["Tus fotos se quedan contigo", "Explora, comparte y elimina tus elementos guardados directamente en la app."],
     free: ["Disponible gratis", "Instala Instava gratis en tu dispositivo Android."],
+    availability: ["¿Y las Stories y las publicaciones privadas?", "Por ahora, Instava admite publicaciones públicas y Reels sin iniciar sesión. Las Stories y las publicaciones privadas aún no son compatibles. Consideraremos añadirlas según la demanda y la disponibilidad de las API oficiales de Instagram."],
     note: ["Uso responsable", "Los derechos del contenido guardado pertenecen a sus autores. Úsalo solo para fines personales. No se admiten publicaciones privadas."]
   },
   fr: {
@@ -39,6 +41,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["Sans compte", "Aucun compte requis. Instava ne collecte pas vos identifiants Instagram ; tout reste sur votre appareil."],
     device: ["Vos photos restent avec vous", "Parcourez, partagez et supprimez vos médias enregistrés directement dans l’app."],
     free: ["Disponible gratuitement", "Installez gratuitement Instava sur votre appareil Android."],
+    availability: ["Et les Stories et publications privées ?", "Instava prend actuellement en charge les publications publiques et les Reels sans connexion. Les Stories et publications privées ne sont pas encore prises en charge. Nous étudierons leur ajout selon la demande et la disponibilité des API officielles d’Instagram."],
     note: ["Utilisation responsable", "Les droits sur les contenus enregistrés appartiennent à leurs auteurs. Réservez-les à un usage personnel. Les publications privées ne sont pas prises en charge."]
   },
   hi: {
@@ -53,6 +56,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["लॉगिन की ज़रूरत नहीं", "किसी अकाउंट की ज़रूरत नहीं। Instava आपकी Instagram लॉगिन जानकारी नहीं लेता; सब कुछ आपके डिवाइस पर रहता है।"],
     device: ["आपकी फ़ोटो आपके पास", "सेव किए गए मीडिया को ऐप में ही देखें, शेयर करें या हटाएँ।"],
     free: ["मुफ़्त उपलब्ध", "अपने Android डिवाइस पर Instava मुफ़्त इंस्टॉल करें।"],
+    availability: ["Stories और प्राइवेट पोस्ट का क्या?", "अभी Instava बिना लॉगिन के सार्वजनिक पोस्ट और Reels को सपोर्ट करता है। Stories और प्राइवेट पोस्ट अभी सपोर्टेड नहीं हैं। उपयोगकर्ताओं की मांग और Instagram के आधिकारिक API की उपलब्धता के आधार पर भविष्य में इनके सपोर्ट पर विचार करेंगे।"],
     note: ["ज़िम्मेदारी से उपयोग करें", "सेव किए गए कॉन्टेंट के अधिकार मूल पोस्ट करने वालों के हैं। केवल निजी उपयोग करें। प्राइवेट पोस्ट सपोर्टेड नहीं हैं।"]
   },
   id: {
@@ -67,6 +71,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["Tanpa login", "Tidak perlu akun. Instava tidak mengumpulkan info login Instagram; semuanya tetap di perangkat Anda."],
     device: ["Foto Anda tetap bersama Anda", "Lihat, bagikan, dan hapus media tersimpan langsung di dalam aplikasi."],
     free: ["Tersedia gratis", "Instal Instava gratis di perangkat Android Anda."],
+    availability: ["Bagaimana dengan Stories dan postingan privat?", "Saat ini Instava mendukung postingan publik dan Reels tanpa login. Stories dan postingan privat belum didukung. Dukungan di masa depan akan dipertimbangkan berdasarkan permintaan pengguna dan ketersediaan API resmi Instagram."],
     note: ["Gunakan dengan bertanggung jawab", "Hak konten tetap milik pengunggah aslinya. Gunakan hanya untuk keperluan pribadi. Postingan privat tidak didukung."]
   },
   it: {
@@ -81,6 +86,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["Niente login", "Non serve alcun account. Instava non raccoglie credenziali Instagram; tutto resta sul tuo dispositivo."],
     device: ["Le tue foto restano con te", "Sfoglia, condividi ed elimina i media salvati direttamente nell’app."],
     free: ["Disponibile gratis", "Installa Instava gratuitamente sul tuo dispositivo Android."],
+    availability: ["E le Stories e i post privati?", "Al momento Instava supporta post pubblici e Reel senza richiedere l’accesso. Stories e post privati non sono ancora supportati. Valuteremo il supporto futuro in base alle richieste e alla disponibilità delle API ufficiali di Instagram."],
     note: ["Uso responsabile", "I diritti sui contenuti salvati appartengono agli autori. Usali solo per scopi personali. I post privati non sono supportati."]
   },
   ko: {
@@ -95,6 +101,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["로그인 불필요", "계정이 필요 없습니다. Instava는 Instagram 로그인 정보를 수집하지 않으며 모든 처리는 기기 안에서 이루어집니다."],
     device: ["사진은 내 기기에", "앱에서 저장된 미디어를 확인하고 공유하거나 삭제할 수 있습니다."],
     free: ["무료로 제공", "Android 기기에 Instava를 무료로 설치하세요."],
+    availability: ["스토리와 비공개 게시물은요?", "현재 Instava는 로그인 없이 공개 게시물과 릴스를 지원합니다. 스토리와 비공개 게시물은 아직 지원하지 않습니다. 사용자 요청과 Instagram 공식 API 제공 상황을 보며 향후 지원을 검토하겠습니다."],
     note: ["책임감 있게 이용하세요", "저장한 콘텐츠의 권리는 원 게시자에게 있습니다. 개인적인 용도로만 이용해 주세요. 비공개 게시물은 지원하지 않습니다."]
   },
   pt: {
@@ -109,6 +116,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["Sem login", "Você não precisa de conta. O Instava não coleta credenciais do Instagram; tudo fica no seu dispositivo."],
     device: ["Suas fotos ficam com você", "Veja, compartilhe e exclua os itens salvos direto no app."],
     free: ["Disponível grátis", "Instale o Instava gratuitamente no seu dispositivo Android."],
+    availability: ["E os Stories e as publicações privadas?", "No momento, o Instava oferece suporte a publicações públicas e Reels sem exigir login. Stories e publicações privadas ainda não são compatíveis. Avaliaremos o suporte futuro conforme a procura e a disponibilidade das APIs oficiais do Instagram."],
     note: ["Use com responsabilidade", "Os direitos do conteúdo salvo pertencem a quem publicou. Use apenas para fins pessoais. Publicações privadas não são suportadas."]
   },
   th: {
@@ -123,6 +131,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["ไม่ต้องล็อกอิน", "ไม่ต้องใช้บัญชี Instava ไม่เก็บข้อมูลเข้าสู่ระบบ Instagram และทุกอย่างอยู่บนอุปกรณ์ของคุณ"],
     device: ["รูปของคุณอยู่กับคุณ", "ดู แชร์ หรือลบสื่อที่บันทึกไว้ได้จากในแอป"],
     free: ["ใช้งานได้ฟรี", "ติดตั้ง Instava ฟรีบนอุปกรณ์ Android ของคุณ"],
+    availability: ["แล้ว Stories และโพสต์ส่วนตัวล่ะ?", "ขณะนี้ Instava รองรับโพสต์สาธารณะและ Reels โดยไม่ต้องล็อกอิน ส่วน Stories และโพสต์ส่วนตัวยังไม่รองรับ เราจะพิจารณาในอนาคตตามความต้องการของผู้ใช้และความพร้อมของ API อย่างเป็นทางการจาก Instagram"],
     note: ["ใช้งานอย่างรับผิดชอบ", "สิทธิ์ในคอนเทนต์เป็นของผู้โพสต์ต้นฉบับ โปรดใช้เพื่อวัตถุประสงค์ส่วนตัวเท่านั้น ไม่รองรับโพสต์ส่วนตัว"]
   },
   tr: {
@@ -137,6 +146,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["Giriş gerekmez", "Hesaba gerek yok. Instava Instagram giriş bilgilerini toplamaz; her şey cihazında kalır."],
     device: ["Fotoğrafların sende kalır", "Kaydettiklerini uygulama içinden görüntüle, paylaş veya sil."],
     free: ["Ücretsiz sunuluyor", "Instava’yı Android cihazına ücretsiz yükle."],
+    availability: ["Stories ve gizli gönderiler ne olacak?", "Instava şu anda giriş gerektirmeden herkese açık gönderileri ve Reels içeriklerini destekliyor. Stories ve gizli gönderiler henüz desteklenmiyor. Kullanıcı talebine ve resmi Instagram API’lerinin durumuna göre gelecekte desteklemeyi değerlendireceğiz."],
     note: ["Sorumlu kullan", "Kaydedilen içeriklerin hakları orijinal paylaşan kişilere aittir. Yalnızca kişisel kullanım içindir. Gizli gönderiler desteklenmez."]
   },
   vi: {
@@ -151,6 +161,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["Không đăng nhập", "Không cần tài khoản. Instava không thu thập thông tin đăng nhập Instagram; mọi thứ ở trên thiết bị của bạn."],
     device: ["Ảnh luôn ở lại với bạn", "Xem, chia sẻ và xóa các mục đã lưu ngay trong ứng dụng."],
     free: ["Có sẵn miễn phí", "Cài đặt Instava miễn phí trên thiết bị Android của bạn."],
+    availability: ["Còn Stories và bài viết riêng tư?", "Hiện tại, Instava hỗ trợ bài viết công khai và Reels mà không cần đăng nhập. Stories và bài viết riêng tư chưa được hỗ trợ. Chúng tôi sẽ cân nhắc hỗ trợ trong tương lai dựa trên nhu cầu và khả năng cung cấp của API Instagram chính thức."],
     note: ["Sử dụng có trách nhiệm", "Bản quyền nội dung thuộc về người đăng gốc. Chỉ sử dụng cho mục đích cá nhân. Không hỗ trợ bài viết riêng tư."]
   },
   zh: {
@@ -165,6 +176,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["免登入", "不需要任何帳號。Instava 不會收集 Instagram 登入資訊，所有處理都在裝置內完成。"],
     device: ["相片留在你的裝置上", "可直接在 App 內瀏覽、分享或刪除已儲存的媒體。"],
     free: ["免費提供", "在 Android 裝置上免費安裝 Instava。"],
+    availability: ["Stories 和私人貼文呢？", "目前 Instava 無需登入即可支援公開貼文與 Reels。Stories 和私人貼文尚未支援；未來將依使用者需求及 Instagram 官方 API 的提供情況評估。"],
     note: ["負責任地使用", "儲存內容的權利屬於原發文者，請限於個人使用。Instava 不支援私人貼文。"]
   },
   ar: {
@@ -179,6 +191,7 @@ window.INSTAVA_LANDING_LOCALES = {
     login: ["بلا تسجيل دخول", "لا حاجة إلى حساب. لا يجمع Instava بيانات دخول Instagram؛ كل شيء يبقى على جهازك."],
     device: ["صورك تبقى معك", "تصفّح المحفوظات وشاركها واحذفها من داخل التطبيق مباشرة."],
     free: ["متاح مجانًا", "ثبّت Instava مجانًا على جهاز Android الخاص بك."],
+    availability: ["ماذا عن Stories والمنشورات الخاصة؟", "يدعم Instava حاليًا المنشورات العامة وReels من دون تسجيل دخول. لا تزال Stories والمنشورات الخاصة غير مدعومة. سننظر في دعمها مستقبلًا وفقًا لطلب المستخدمين وتوفر واجهات Instagram الرسمية."],
     note: ["استخدمه بمسؤولية", "حقوق المحتوى المحفوظ تعود إلى أصحابه الأصليين. استخدمه للأغراض الشخصية فقط. المنشورات الخاصة غير مدعومة."]
   }
 };
