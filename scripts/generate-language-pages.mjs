@@ -17,7 +17,7 @@ const copy = {
   },
   en: {
     title: "Instava | Save Instagram photos, videos, and Reels",
-    description: "Save public Instagram photos, videos, and Reels in original quality by pasting a URL. Select the media you want from a multi-photo post (carousel) and save it together. No login required.",
+    description: "Save public Instagram photos, videos, and Reels without losing quality by pasting a URL. Select the media you want from a multi-photo post (carousel) and save it together. No login required.",
     locale: "en_US"
   },
   ...Object.fromEntries(Object.entries(context.window.INSTAVA_LANDING_LOCALES).map(([language, value]) => [language, {
