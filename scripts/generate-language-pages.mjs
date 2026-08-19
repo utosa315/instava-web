@@ -12,12 +12,12 @@ vm.runInNewContext(localeSource, context);
 const copy = {
   ja: {
     title: "インスタの写真・動画・リールを画質を落とさず保存｜Instava",
-    description: "インスタの写真・動画・リールを、URLを貼るだけで画質を落とさず保存。カルーセルは欲しい写真・動画を選んでまとめて保存できます。ログイン不要。",
+    description: "インスタの写真・動画・リールを、URLを貼るだけで画質を落とさず保存。カルーセル（複数枚投稿）は欲しい写真・動画を選んでまとめて保存できます。ログイン不要。",
     locale: "ja_JP"
   },
   en: {
     title: "Instava | Save Instagram photos, videos, and Reels",
-    description: "Save public Instagram photos, videos, and Reels in original quality by pasting a URL. Select the media you want from a carousel and save it together. No login required.",
+    description: "Save public Instagram photos, videos, and Reels in original quality by pasting a URL. Select the media you want from a multi-photo post (carousel) and save it together. No login required.",
     locale: "en_US"
   },
   ...Object.fromEntries(Object.entries(context.window.INSTAVA_LANDING_LOCALES).map(([language, value]) => [language, {
