@@ -11,16 +11,16 @@ vm.runInNewContext(localeSource, context);
 
 const copy = {
   ja: {
-    title: "インスタの写真・動画・リールを画質を落とさず保存｜Instava",
-    description: "インスタの写真・動画・リールを、URLを貼るだけで画質を落とさず保存。カルーセル（複数枚投稿）は欲しい写真・動画を選んでまとめて保存できます。ログイン不要。",
+    title: "Instagramの写真・動画・リールを画質を落とさず保存｜InstantKeep",
+    description: "Instagramの写真・動画・リールを、URLを貼るだけで画質を落とさず保存。カルーセル（複数枚投稿）は欲しい写真・動画を選んでまとめて保存できます。ログイン不要。",
     locale: "ja_JP"
   },
   en: {
-    title: "Instava | Save Instagram photos, videos, and Reels",
+    title: "InstantKeep | Save Instagram photos, videos, and Reels",
     description: "Save public Instagram photos, videos, and Reels without losing quality by pasting a URL. Select the media you want from a multi-photo post (carousel) and save it together. No login required.",
     locale: "en_US"
   },
-  ...Object.fromEntries(Object.entries(context.window.INSTAVA_LANDING_LOCALES).map(([language, value]) => [language, {
+  ...Object.fromEntries(Object.entries(context.window.INSTANTKEEP_LANDING_LOCALES).map(([language, value]) => [language, {
     title: value.title,
     description: `${value.intro} ${value.ads[1]}`,
     locale: ({ ar: "ar_AR", de: "de_DE", es: "es_419", fr: "fr_FR", hi: "hi_IN", id: "id_ID", it: "it_IT", ko: "ko_KR", pt: "pt_BR", th: "th_TH", tr: "tr_TR", vi: "vi_VN", zh: "zh_TW" })[language]
@@ -39,7 +39,7 @@ for (const [language, metadata] of Object.entries(copy)) {
     .replace(/<link rel="canonical" href="[^"]+">/, `<link rel="canonical" href="${canonical}">`)
     .replace(/<link rel="preload" href="\/assets\/app-select-[^"]+"/, `<link rel="preload" href="/assets/app-select-${language}.webp"`)
     .replace(/<meta property="og:url" content="[^"]+">/, `<meta property="og:url" content="${canonical}">`)
-    .replace(/<meta property="og:image:alt" content="[^"]+">/, `<meta property="og:image:alt" content="Instava app icon">`)
+    .replace(/<meta property="og:image:alt" content="[^"]+">/, `<meta property="og:image:alt" content="InstantKeep app icon">`)
     .replace(/(<title[^>]*>)[\s\S]*?(<\/title>)/, `$1${metadata.title}$2`)
     .replace(/(<meta name="description"[\s\S]*?\scontent=")[^"]*(">)/, `$1${escapeAttribute(metadata.description)}$2`)
     .replace(/(<meta property="og:title"[^>]*\scontent=")[^"]*(">)/, `$1${escapeAttribute(metadata.title)}$2`)
