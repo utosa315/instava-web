@@ -1,7 +1,7 @@
 (function () {
   var html = document.documentElement;
   var isLanding = document.body.classList.contains("landing");
-  var landingLocales = window.INSTAVA_LANDING_LOCALES || {};
+  var landingLocales = window.INSTANTKEEP_LANDING_LOCALES || {};
   var supported = isLanding
     ? ["ja", "en", "de", "es", "fr", "hi", "id", "it", "ko", "pt", "th", "tr", "vi", "zh", "ar"]
     : ["ja", "en"];
@@ -60,12 +60,12 @@
       '<div class="i18n" lang="' + lang + '">' +
         '<section class="hero">' +
           '<div class="hero-copy"><p class="eyebrow">' + copy.eyebrow + '</p><h1>' + copy.tag + '</h1><p class="hero-lead">' + copy.intro + '</p><div class="hero-action"><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play" width="200" height="77"></a></div></div>' +
-          '<figure class="hero-render"><div class="hero-device-stage" aria-label="Instava">' +
+          '<figure class="hero-render"><div class="hero-device-stage" aria-label="InstantKeep">' +
             '<div class="hero-device hero-device-home">' + image("home", copy.steps[1], false) + '</div>' +
             '<div class="hero-device hero-device-saved">' + image("saved", copy.device[0], false) + '</div>' +
             '<div class="hero-device hero-device-select">' + image("select", copy.steps[2], false) + '</div>' +
           '</div><figcaption class="hero-flow"><ol><li><span>1</span><strong>' + copy.steps[0] + '</strong></li><li><span>2</span><strong>' + copy.steps[1] + '</strong></li><li><span>3</span><strong>' + copy.steps[2] + '</strong></li></ol></figcaption><img class="spot-mascot mascot-link" src="/assets/mascot-link.webp" alt="" width="360" height="360" aria-hidden="true"></figure>' +
-          '<div class="hero-proof"><p class="proof-intro">Instava</p><p><strong>' + copy.save.proof[0] + '</strong><span>' + copy.save.proof[1] + '</span></p><p><strong>' + copy.ads[0] + '</strong><span>' + copy.ads[1] + '</span></p><p><strong>' + copy.quick[0] + '</strong><span>' + copy.quick[1] + '</span></p></div>' +
+          '<div class="hero-proof"><p class="proof-intro">InstantKeep</p><p><strong>' + copy.save.proof[0] + '</strong><span>' + copy.save.proof[1] + '</span></p><p><strong>' + copy.ads[0] + '</strong><span>' + copy.ads[1] + '</span></p><p><strong>' + copy.quick[0] + '</strong><span>' + copy.quick[1] + '</span></p></div>' +
         '</section>' +
         '<section class="manifesto section-shell" aria-labelledby="story-' + lang + '"><img class="spot-mascot mascot-quiet" src="/assets/mascot-quiet.webp" alt="" width="360" height="360" loading="lazy" aria-hidden="true"><div><p class="section-kicker">' + copy.story[0] + '</p><h2 id="story-' + lang + '">' + copy.story[1] + '</h2></div><div class="manifesto-copy"><p>' + copy.story[2] + '</p><p>' + copy.story[3] + '</p><p>' + copy.intro + '</p><p class="founder-sign">' + copy.story[4] + '</p></div></section>' +
         '<section class="formats section-shell" aria-labelledby="formats-' + lang + '"><div class="section-heading"><p class="section-kicker">What you can save</p><h2 id="formats-' + lang + '">' + copy.save.heading + '</h2></div><div class="format-grid">' +
@@ -85,7 +85,7 @@
           '<article><div class="phone-frame">' + image("saved", copy.steps[2], true) + '</div><span>3</span><h3>' + copy.steps[2] + '</h3></article>' +
         '</div></section>' +
         '<section class="trust section-shell"><div><p class="section-kicker">Privacy, plainly</p><h2>' + copy.privacy[0] + '</h2><p>' + copy.privacy[1] + '</p><a href="/privacy/?lang=en">' + copy.privacy[2] + '</a></div><svg aria-hidden="true"><use href="#shield"></use></svg></section>' +
-        '<section class="release section-shell"><img class="release-icon" src="/favicon.svg" alt="Instava" width="76" height="76"><div><p class="section-kicker">Google Play</p><h2>' + copy.free[0] + '</h2><p>' + copy.free[1] + '</p><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play" width="200" height="77" loading="lazy"></a></div><img class="spot-mascot mascot-wave" src="/assets/mascot-wave.webp" alt="" width="360" height="360" loading="lazy" aria-hidden="true"></section>' +
+        '<section class="release section-shell"><img class="release-icon" src="/favicon.svg" alt="InstantKeep" width="76" height="76"><div><p class="section-kicker">Google Play</p><h2>' + copy.free[0] + '</h2><p>' + copy.free[1] + '</p><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.tardigrader_app.instava" target="_blank" rel="noopener"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Google Play" width="200" height="77" loading="lazy"></a></div><img class="spot-mascot mascot-wave" src="/assets/mascot-wave.webp" alt="" width="360" height="360" loading="lazy" aria-hidden="true"></section>' +
         '<aside class="usage-note section-shell"><p><strong>' + copy.note[0] + '</strong> ' + copy.note[1] + ' ' + copy.unofficial + '</p></aside>' +
       '</div>';
   }
